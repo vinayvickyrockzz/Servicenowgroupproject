@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Popular articles event mapping</name>
+        <parent_macroponent display_value="Landing Page">f1a884a006a08210b0b9d020deea5eb6</parent_macroponent>
+        <source_component/>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_row_3</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-20 14:53:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1a884a0b3a08210221ef6308812cdb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles event mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_b1a884a0b3a08210221ef6308812cdb4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-20 14:53:54</sys_updated_on>
+        <target_event display_value="Popular articles">75a884a072a082108a0a34b7af745cb4</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

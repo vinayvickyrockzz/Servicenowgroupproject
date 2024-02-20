@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">f1a884a044a0821042606c7bd5fbb391</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">35a884a099a0821054ea36fb027cee8d</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-20 14:53:52</sys_created_on>
+        <sys_id>b5a884a02da08210e994af3eb5b4098e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_b5a884a02da08210e994af3eb5b4098e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-20 14:53:52</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
