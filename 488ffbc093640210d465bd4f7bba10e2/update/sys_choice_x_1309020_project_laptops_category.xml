@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_1309020_project_laptops" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_1309020_project_laptops</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_id>17a6211893204210d465bd4f7bba10d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+            <sys_update_name>sys_choice_x_1309020_project_laptops_category</sys_update_name>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfa6211893204210d465bd4f7bba10d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a6211893204210d465bd4f7bba10da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Printer</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a6211893204210d465bd4f7bba10db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>printer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Router</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a6211893204210d465bd4f7bba10dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>router</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accessory</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a6211893204210d465bd4f7bba10dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>accessory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Hardware</label>
+            <language>en</language>
+            <name>x_1309020_project_laptops</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a6211893204210d465bd4f7bba10de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:06:09</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
