@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>brand</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 18:41:10</sys_created_on>
+        <sys_data_policy display_value="">5a9f07c193a0c610d465bd4f7bba1092</sys_data_policy>
+        <sys_id>d0df870593a0c610d465bd4f7bba1038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>brand</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_data_policy_rule_d0df870593a0c610d465bd4f7bba1038</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:41:10</sys_updated_on>
+        <table>x_1309020_project_product</table>
+    </sys_data_policy_rule>
+</record_update>
