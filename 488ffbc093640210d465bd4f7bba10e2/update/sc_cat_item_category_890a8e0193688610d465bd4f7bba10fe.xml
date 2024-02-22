@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item>
+        <sc_category display_value="Hardware">ff4f98ac93248210d465bd4f7bba109e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 13:36:00</sys_created_on>
+        <sys_id>890a8e0193688610d465bd4f7bba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sc_cat_item_category_890a8e0193688610d465bd4f7bba10fe</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 13:36:00</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
