@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color>#ffffff</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Hardware ordering - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="ho_index">224360e493648210d465bd4f7bba10d3</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 14:47:28</sys_created_on>
+        <sys_id>406a120993e88610d465bd4f7bba10a5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hardware ordering - Container 3</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_container_406a120993e88610d465bd4f7bba10a5</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:28:52</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

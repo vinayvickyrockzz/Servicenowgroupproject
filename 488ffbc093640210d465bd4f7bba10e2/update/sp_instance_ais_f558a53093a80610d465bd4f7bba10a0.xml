@@ -3,7 +3,7 @@
         <active>true</active>
         <ai_search_source_filter/>
         <class_name/>
-        <color>default</color>
+        <color>info</color>
         <css/>
         <disable_all_suggestions>false</disable_all_suggestions>
         <glyph/>
@@ -13,7 +13,7 @@
         <roles/>
         <search_application/>
         <search_results_configuration/>
-        <short_description/>
+        <short_description>We offer the best hardware deal in the world</short_description>
         <size>md</size>
         <sp_column display_value="1">3748e53093a80610d465bd4f7bba105a</sp_column>
         <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
@@ -22,17 +22,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-21 16:30:23</sys_created_on>
         <sys_id>f558a53093a80610d465bd4f7bba10a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>The #1 Electronic Service</sys_name>
         <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name>sp_instance_ais_f558a53093a80610d465bd4f7bba10a0</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 16:30:23</sys_updated_on>
-        <title/>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:21:09</sys_updated_on>
+        <title>The #1 Electronic Service</title>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{title:'How can we help?',size:'Ig',color:'info'}",
+		"displayValue": "{title:'How can we help?',size:'Ig',color:'info'}"
+	}
+}]]></widget_parameters>
     </sp_instance_ais>
     <sys_translated_text action="delete_multiple" query="documentkey=f558a53093a80610d465bd4f7bba10a0"/>
 </record_update>
