@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1309020_project.RetreiveOrderDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RetreiveOrderDetails</name>
+        <script><![CDATA[var RetreiveOrderDetails = Class.create();
+RetreiveOrderDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getUserDetails: function(){
+		//Get the identifier
+		var identity = this.getParameter("sysparm_identity");
+
+		//Create a table reader and set it to the system id
+		var reader = new GlideRecord("sys_user");
+		reader.addQuery("sys_id", identity);
+
+		//Run the query and return the results (if any)
+		reader.query();
+
+		//Get the first results and return the items in a loaded String
+		if (reader.next()){
+			//Get the values we need
+			let name = (reader.name + ";");
+			let phone = (reader.mobile_phone + ";");
+			let email = reader.email;
+
+			//Combine them and return them
+			let stringArray = name + phone + email;
+			return stringArray;
+		}
+	},
+
+    type: 'RetreiveOrderDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dakota_gray</sys_created_by>
+        <sys_created_on>2024-02-23 02:52:09</sys_created_on>
+        <sys_id>b52fb05193ecc610d465bd4f7bba1043</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>RetreiveOrderDetails</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_script_include_b52fb05193ecc610d465bd4f7bba1043</sys_update_name>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-02-23 05:10:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

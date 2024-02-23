@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>product</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Order: Generate Product Details</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	//Call the value in the product table
+	var callingProduct = g_form.getReference("product", postProductDetails);
+	
+   //Start with the function before describing the reference
+   function postProductDetails(output){
+
+		//The first value is name, the second is category, and the third is brand. Apply those values accordingly
+		g_form.setValue("product_name",output.name);
+		g_form.setValue("product_category",output.category);
+		g_form.setValue("product_brand",output.brand);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dakota_gray</sys_created_by>
+        <sys_created_on>2024-02-23 03:12:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01238d9993ecc610d465bd4f7bba100f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Order: Generate Product Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_script_client_01238d9993ecc610d465bd4f7bba100f</sys_update_name>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-02-23 05:14:47</sys_updated_on>
+        <table>x_1309020_project_orders</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
