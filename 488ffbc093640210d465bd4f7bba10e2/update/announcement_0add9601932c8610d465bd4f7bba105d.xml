@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>page</click_target>
+        <details/>
+        <details_link_text/>
+        <details_page display_value="hardware_ordering">6393a4e493648210d465bd4f7bba103f</details_page>
+        <details_url>https://dev215531.service-now.com/ho?id=sc_cat_item&amp;sys_id=db7c502893248210d465bd4f7bba10d6&amp;sysparm_category=ff4f98ac93248210d465bd4f7bba109e</details_url>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Urgent">339ea11ae7d4030075c2a117c2f6a9cf</display_style>
+        <from>2024-02-22 15:03:24</from>
+        <glyph>thumb-tack</glyph>
+        <glyph_alt_text/>
+        <name>Hardware ordering request</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary/>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 15:07:12</sys_created_on>
+        <sys_id>0add9601932c8610d465bd4f7bba105d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Hardware ordering request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>announcement_0add9601932c8610d465bd4f7bba105d</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-23 12:45:41</sys_updated_on>
+        <title>Choose the Hardware request  according to the device type</title>
+        <to>2024-05-11 14:03:41</to>
+        <type>52fa79f8e763320075c2a117c2f6a991,67eaf134e7a3320075c2a117c2f6a9d2</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=0add9601932c8610d465bd4f7bba105d"/>
+</record_update>
