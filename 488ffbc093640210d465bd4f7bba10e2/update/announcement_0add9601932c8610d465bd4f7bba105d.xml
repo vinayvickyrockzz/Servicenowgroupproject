@@ -21,16 +21,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 15:07:12</sys_created_on>
         <sys_id>0add9601932c8610d465bd4f7bba105d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Hardware ordering request</sys_name>
         <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name>announcement_0add9601932c8610d465bd4f7bba105d</sys_update_name>
         <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-23 12:45:41</sys_updated_on>
+        <sys_updated_on>2024-03-07 11:32:58</sys_updated_on>
         <title>Choose the Hardware request  according to the device type</title>
-        <to>2024-05-11 14:03:41</to>
+        <to/>
         <type>52fa79f8e763320075c2a117c2f6a991,67eaf134e7a3320075c2a117c2f6a9d2</type>
     </announcement>
     <sys_translated_text action="delete_multiple" query="documentkey=0add9601932c8610d465bd4f7bba105d"/>

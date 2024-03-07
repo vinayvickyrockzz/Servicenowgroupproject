@@ -5,7 +5,7 @@
         <autolaunch_order>0</autolaunch_order>
         <context>ho?id=ho_index&amp;gtd_portal_title=Hardware Ordering&amp;gtd_page_title=Hardware ordering</context>
         <description/>
-        <has_concl>true</has_concl>
+        <has_concl>false</has_concl>
         <has_intro>true</has_intro>
         <name>Hardware order request tour</name>
         <options/>
@@ -19,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ffbb87d993ac0a10d465bd4f7bba1033</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Hardware order request tour</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
@@ -27,7 +27,7 @@
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name>sys_embedded_tour_guide_ffbb87d993ac0a10d465bd4f7bba1033</sys_update_name>
         <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-23 13:17:35</sys_updated_on>
+        <sys_updated_on>2024-02-23 14:57:28</sys_updated_on>
         <tour_id>TOUR0000008</tour_id>
         <type>service_portal</type>
     </sys_embedded_tour_guide>
