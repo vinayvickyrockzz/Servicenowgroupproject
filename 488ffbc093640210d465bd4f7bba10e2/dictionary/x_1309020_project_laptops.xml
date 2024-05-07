@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ac42d1493204210d465bd4f7bba1040" extends="x_1309020_project_product" label="Laptops" max_length="40" name="x_1309020_project_laptops" type="collection">
+        <element label="Battery" mandatory="true" max_length="40" name="battery" type="integer"/>
+        <element label="Warranty" max_length="40" name="warranty" type="string"/>
+        <element label="Weight" mandatory="true" max_length="40" name="weight" type="float"/>
+    </element>
+</database>

@@ -4,7 +4,7 @@
         <misc>0</misc>
         <order>100</order>
         <published_ref/>
-        <question display_value="Operating System">abe83cec93e48210d465bd4f7bba1099</question>
+        <question display_value="Processor">abe83cec93e48210d465bd4f7bba1099</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>It service</sys_created_by>

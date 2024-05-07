@@ -30,6 +30,15 @@
         <sys_update_name>sys_db_object_0bf2885c93640210d465bd4f7bba10f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-22 22:23:55</sys_updated_on>
+        <u_company/>
+        <u_coursedeliveries/>
+        <u_emailaddress/>
+        <u_enddate/>
+        <u_firstname/>
+        <u_lastcontacted/>
+        <u_lastname/>
+        <u_reference_1/>
+        <u_startdate/>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>

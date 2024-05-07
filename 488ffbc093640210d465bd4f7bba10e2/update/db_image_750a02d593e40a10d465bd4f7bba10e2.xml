@@ -23,21 +23,21 @@
         <width>350</width>
     </db_image>
     <sys_attachment action="INSERT_OR_UPDATE">
-        <average_image_color/>
+        <average_image_color>#ccccff</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>image</file_name>
         <hash>ec656ee64473f8bd3f69406d1dc6d7733491d87573248cf88ccfc62352910bd6</hash>
-        <image_height/>
-        <image_width/>
+        <image_height>141</image_height>
+        <image_width>350</image_width>
         <size_bytes>3858</size_bytes>
         <size_compressed>3813</size_compressed>
-        <state>pending</state>
+        <state>available</state>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-23 08:14:32</sys_created_on>
         <sys_id>390a02d593e40a10d465bd4f7bba10e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>It service</sys_updated_by>
         <sys_updated_on>2024-02-23 08:14:32</sys_updated_on>
         <table_name>ZZ_YYdb_image</table_name>

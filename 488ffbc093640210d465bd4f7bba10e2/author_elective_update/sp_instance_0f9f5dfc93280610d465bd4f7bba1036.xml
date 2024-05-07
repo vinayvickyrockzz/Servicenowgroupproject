@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">fc9f19fc93280610d465bd4f7bba103f</sp_column>
+        <sp_widget display_value="Search Nav">81299142cb21020000f8d856634c9cc1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 15:52:14</sys_created_on>
+        <sys_id>0f9f5dfc93280610d465bd4f7bba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_0f9f5dfc93280610d465bd4f7bba1036</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 15:52:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0f9f5dfc93280610d465bd4f7bba1036"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sp_instance_0f9f5dfc93280610d465bd4f7bba1036</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">fc9f19fc93280610d465bd4f7bba103f</sp_column><sp_widget display_value="Search Nav">81299142cb21020000f8d856634c9cc1</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 15:52:14</sys_created_on><sys_id>0f9f5dfc93280610d465bd4f7bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sp_instance_0f9f5dfc93280610d465bd4f7bba1036</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 15:52:14</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=0f9f5dfc93280610d465bd4f7bba1036"/></record_update>]]></payload>
+        <payload_hash>-1143583649</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>40a5dde893e88210d465bd4f7bba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 15:52:15</sys_created_on>
+        <sys_id>839f5dfc93280610d465bd4f7bba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcc5e17e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 15:52:15</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c79f5dfc95280610f0c5c4b1486c5638</update_guid>
+        <update_guid_history>c79f5dfc95280610f0c5c4b1486c5638:-1143583649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">38dfddfc93280610d465bd4f7bba1020</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 15:53:11</sys_created_on>
+        <sys_db_object display_value="sp_instance" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>601ac12c5e354cfe9be09ca6b7573204</sys_id>
+        <sys_metadata>0f9f5dfc93280610d465bd4f7bba1036</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sp_instance_0f9f5dfc93280610d465bd4f7bba1036</sys_update_name>
+        <sys_update_version display_value="sp_instance_0f9f5dfc93280610d465bd4f7bba1036">839f5dfc93280610d465bd4f7bba1039</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 15:53:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

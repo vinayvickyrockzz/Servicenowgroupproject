@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e89215c93204210d465bd4f7bba1089" extends="x_1309020_project_product" label="Printers" max_length="40" name="x_1309020_project_printers" type="collection">
+        <element choice="1" label="Compatibility" mandatory="true" max_length="40" name="compatibility" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Windows" sequence="0" value="windows"/>
+                <element inactive_on_update="false" label="Linux" sequence="1" value="linux"/>
+                <element inactive_on_update="false" label="Mac OS" sequence="2" value="mac_os"/>
+            </choice>
+        </element>
+        <element choice="1" label="Connectivity" mandatory="true" max_length="40" name="connectivity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="WiFi" sequence="0" value="wifi"/>
+                <element inactive_on_update="false" label="USB" sequence="1" value="usb"/>
+                <element inactive_on_update="false" label="Bluetooth" sequence="2" value="bluetooth"/>
+            </choice>
+        </element>
+    </element>
+</database>

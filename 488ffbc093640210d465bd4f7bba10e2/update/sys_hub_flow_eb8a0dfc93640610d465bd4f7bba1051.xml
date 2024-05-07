@@ -4,14 +4,13 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2684948000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>hardware_request_flow</internal_name>
-        <label_cache>[{"name":"{{static.da83a4be9385821060fdff118bba10ea}}","label":"Office Hardware Order Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mode_of_work","label":"1 - Get Catalog Variables➛mode_of_work","reference":"","reference_display":"mode_of_work","type":"choice","base_type":"choice","choices":[{"label":"Work from home","value":"home","order":100.0},{"label":"Work from office","value":"office","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record.status","label":"2 - Create Record➛Orders Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1309020_project_orders","column_name":"status","choices":[{"label":"Pending Approval","rawLabel":"Pending Approval","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"pending_approval","parameters":{"name":"x_1309020_project_orders"}},{"label":"Procuring","rawLabel":"Procuring","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"procuring","parameters":{"name":"x_1309020_project_orders"}},{"label":"Shipping","rawLabel":"Shipping","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"shipping","parameters":{"name":"x_1309020_project_orders"}},{"label":"Completed","rawLabel":"Completed","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"completed","parameters":{"name":"x_1309020_project_orders"}},{"label":"Cancelled","rawLabel":"Cancelled","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"cancelled","parameters":{"name":"x_1309020_project_orders"}}]},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record","label":"2 - Create Record➛Orders Record","reference":"x_1309020_project_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95e902cd-0575-4061-95d2-f1fda7343a28.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode","label":"1 - Get Catalog Variables➛zipcode","reference":"","reference_display":"zipcode","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.country","label":"1 - Get Catalog Variables➛country","reference":"","reference_display":"country","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.state","label":"1 - Get Catalog Variables➛state","reference":"","reference_display":"state","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.city","label":"1 - Get Catalog Variables➛city","reference":"","reference_display":"city","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name","label":"1 - Get Catalog Variables➛street_name","reference":"","reference_display":"street_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num","label":"1 - Get Catalog Variables➛house_num","reference":"","reference_display":"house_num","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand","label":"1 - Get Catalog Variables➛brand","reference":"","reference_display":"brand","type":"choice","base_type":"choice","attributes":{"catalogType":"22","catalogTypeLabel":"Lookup Multiple Choice"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware","label":"1 - Get Catalog Variables➛hardware","reference":"","reference_display":"hardware","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber","label":"1 - Get Catalog Variables➛mobilenumber","reference":"","reference_display":"mobilenumber","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <label_cache>[{"name":"{{static.8c92552e93c90210d465bd4f7bba10bc}}","label":"Minhaj I K","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.5054bbc093240210d465bd4f7bba1028}}","label":"Dakota Gray","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.06dee34093600210d465bd4f7bba10e4}}","label":"Service It","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.da83a4be9385821060fdff118bba10ea}}","label":"Office Hardware Order Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mode_of_work","label":"1 - Get Catalog Variables➛mode_of_work","reference":"","reference_display":"mode_of_work","type":"choice","base_type":"choice","choices":[{"label":"Work from home","value":"home","order":100.0},{"label":"Work from office","value":"office","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record.status","label":"2 - Create Record➛Orders Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1309020_project_orders","column_name":"status","choices":[{"label":"Pending Approval","image":"","used":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"reference":false,"value":"pending_approval","parameters":{"name":"x_1309020_project_orders"}},{"label":"Procuring","image":"","used":false,"rawLabel":"Procuring","selected":false,"missing":false,"reference":false,"value":"procuring","parameters":{"name":"x_1309020_project_orders"}},{"label":"Shipping","image":"","used":false,"rawLabel":"Shipping","selected":false,"missing":false,"reference":false,"value":"shipping","parameters":{"name":"x_1309020_project_orders"}},{"label":"Completed","image":"","used":false,"rawLabel":"Completed","selected":false,"missing":false,"reference":false,"value":"completed","parameters":{"name":"x_1309020_project_orders"}},{"label":"Cancelled","image":"","used":false,"rawLabel":"Cancelled","selected":false,"missing":false,"reference":false,"value":"cancelled","parameters":{"name":"x_1309020_project_orders"}}]},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record","label":"2 - Create Record➛Orders Record","reference":"x_1309020_project_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95e902cd-0575-4061-95d2-f1fda7343a28.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode","label":"1 - Get Catalog Variables➛zipcode","reference":"","reference_display":"zipcode","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.country","label":"1 - Get Catalog Variables➛country","reference":"","reference_display":"country","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.state","label":"1 - Get Catalog Variables➛state","reference":"","reference_display":"state","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.city","label":"1 - Get Catalog Variables➛city","reference":"","reference_display":"city","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name","label":"1 - Get Catalog Variables➛street_name","reference":"","reference_display":"street_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num","label":"1 - Get Catalog Variables➛house_num","reference":"","reference_display":"house_num","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand","label":"1 - Get Catalog Variables➛brand","reference":"","reference_display":"brand","type":"choice","base_type":"choice","attributes":{"catalogType":"22","catalogTypeLabel":"Lookup Multiple Choice"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware","label":"1 - Get Catalog Variables➛hardware","reference":"","reference_display":"hardware","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber","label":"1 - Get Catalog Variables➛mobilenumber","reference":"","reference_display":"mobilenumber","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>a067cf819360c610d465bd4f7bba105a</master_snapshot>
         <name>Hardware_Request_Flow</name>
         <natlang/>
@@ -30,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb8a0dfc93640610d465bd4f7bba1051</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Hardware_Request_Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name>sys_hub_flow_eb8a0dfc93640610d465bd4f7bba1051</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=eb8a0dfc93640610d465bd4f7bba1051"/>
@@ -71,10 +70,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>8a9a9a0993e88610d465bd4f7bba1042</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -159,16 +158,19 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>0e9a9a0993e88610d465bd4f7bba103b</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_firstname/>
+        <u_lastcontacted/>
+        <u_lastname/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -179,7 +181,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e9a9a0993e88610d465bd4f7bba103b"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -243,16 +244,19 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>429a9a0993e88610d465bd4f7bba1028</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_firstname/>
+        <u_lastcontacted/>
+        <u_lastname/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -263,29 +267,27 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=429a9a0993e88610d465bd4f7bba1028"/>
     <sys_hub_flow_output action="delete_multiple" query="model=eb8a0dfc93640610d465bd4f7bba1051"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=eb8a0dfc93640610d465bd4f7bba1051"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=eb8a0dfc93640610d465bd4f7bba1051^sys_idNOT IN30272205936c8610d465bd4f7bba100f,30272205936c8610d465bd4f7bba1050,33c72a45936c8610d465bd4f7bba1085,3c272205936c8610d465bd4f7bba1032,3c272205936c8610d465bd4f7bba1059,3c272205936c8610d465bd4f7bba1061,647e5a41932c8610d465bd4f7bba1035,687e5a41932c8610d465bd4f7bba104e,7c272205936c8610d465bd4f7bba101d,82dcd28d93e88610d465bd4f7bba100a,8a9a9a0993e88610d465bd4f7bba1075,bfc72a45936c8610d465bd4f7bba107b,c5272205936c8610d465bd4f7bba107b,c69a9a0993e88610d465bd4f7bba1048,c9272205936c8610d465bd4f7bba1074,e561e209932c8610d465bd4f7bba1021,f0272205936c8610d465bd4f7bba103b,f027eec1936c8610d465bd4f7bba10c8,f8272205936c8610d465bd4f7bba106c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eb8a0dfc93640610d465bd4f7bba1051^sys_idNOT IN30272205936c8610d465bd4f7bba100f,30272205936c8610d465bd4f7bba1050,33c72a45936c8610d465bd4f7bba1085,3c272205936c8610d465bd4f7bba1032,3c272205936c8610d465bd4f7bba1059,3c272205936c8610d465bd4f7bba1061,647e5a41932c8610d465bd4f7bba1035,687e5a41932c8610d465bd4f7bba104e,7c272205936c8610d465bd4f7bba101d,8a9a9a0993e88610d465bd4f7bba1075,bfc72a45936c8610d465bd4f7bba107b,c5272205936c8610d465bd4f7bba107b,c69a9a0993e88610d465bd4f7bba1048,c9272205936c8610d465bd4f7bba1074,e561e209932c8610d465bd4f7bba1021,f0272205936c8610d465bd4f7bba103b,f027eec1936c8610d465bd4f7bba10c8,f8272205936c8610d465bd4f7bba106c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:13</sys_created_on>
         <sys_id>30272205936c8610d465bd4f7bba100f</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>116431e4-07d0-46fe-9a9f-510c249e9e1d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30272205936c8610d465bd4f7bba100f"/>
@@ -361,20 +363,19 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>16</order>
+        <order>15</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>30272205936c8610d465bd4f7bba1050</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>31550a82-b012-4698-b88f-87f42dd4fb93</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30272205936c8610d465bd4f7bba1050"/>
@@ -450,20 +451,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>22</order>
+        <order>21</order>
         <parent_ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:46:10</sys_created_on>
         <sys_id>33c72a45936c8610d465bd4f7bba1085</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>7cee3127-8608-43c8-8531-aac77d545be4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33c72a45936c8610d465bd4f7bba1085"/>
@@ -502,11 +502,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:46:10</sys_created_on>
         <sys_id>b3c72a45936c8610d465bd4f7bba1087</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:46:10</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:11:27</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_738e2068-541c-4e4f-b190-4223b69b992b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_738e2068-541c-4e4f-b190-4223b69b992b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is failed.&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -540,20 +540,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>14</order>
+        <order>13</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>3c272205936c8610d465bd4f7bba1032</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>fdd7d549-dcaf-4880-8b7d-d90731b1ce1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3c272205936c8610d465bd4f7bba1032"/>
@@ -629,20 +628,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>18</order>
+        <order>17</order>
         <parent_ui_id>c10a386d-782b-4036-ae79-706d8e4de732</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>3c272205936c8610d465bd4f7bba1059</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>7074d133-01d6-4006-b80d-2e5880955163</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3c272205936c8610d465bd4f7bba1059"/>
@@ -718,20 +716,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>19</order>
+        <order>18</order>
         <parent_ui_id>c10a386d-782b-4036-ae79-706d8e4de732</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>3c272205936c8610d465bd4f7bba1061</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>d90ed514-cf64-4a24-afb5-6fe15c4de866</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3c272205936c8610d465bd4f7bba1061"/>
@@ -770,11 +767,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>b8272205936c8610d465bd4f7bba1063</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:43:14</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:11:27</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4132486a-6ea2-4082-88a3-a499076ac029" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4132486a-6ea2-4082-88a3-a499076ac029" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is compelted!&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -808,7 +805,6 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
@@ -818,10 +814,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:05:15</sys_created_on>
         <sys_id>647e5a41932c8610d465bd4f7bba1035</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>95e902cd-0575-4061-95d2-f1fda7343a28</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=647e5a41932c8610d465bd4f7bba1035"/>
@@ -902,11 +898,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:05:15</sys_created_on>
         <sys_id>a07e5a41932c8610d465bd4f7bba1038</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 16:33:00</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:43:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}}]G[{{static.da83a4be9385821060fdff118bba10ea}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}},{{static.06dee34093600210d465bd4f7bba10e4}},{{static.5054bbc093240210d465bd4f7bba1028}},{{static.8c92552e93c90210d465bd4f7bba10bc}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -975,20 +971,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>6</order>
-        <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
+        <order>3</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:05:15</sys_created_on>
         <sys_id>687e5a41932c8610d465bd4f7bba104e</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>13a0ad44-5ac1-48f0-a1c6-f4142fb76581</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=687e5a41932c8610d465bd4f7bba104e"/>
@@ -1064,20 +1059,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>12</order>
+        <order>11</order>
         <parent_ui_id>9f50420c-48d6-401a-ab51-5b9b8f973b6e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>7c272205936c8610d465bd4f7bba101d</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>89c763db-312c-4838-a466-74b28aff9a70</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c272205936c8610d465bd4f7bba101d"/>
@@ -1151,98 +1145,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
-        <action_type_parent/>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 14:58:16</sys_created_on>
-        <sys_id>82dcd28d93e88610d465bd4f7bba100a</sys_id>
-        <sys_mod_count>66</sys_mod_count>
-        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
-        <ui_id>dc21b21b-c9f1-4fe8-9b53-35f734501939</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=82dcd28d93e88610d465bd4f7bba100a"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>82dcd28d93e88610d465bd4f7bba100a</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 15:59:18</sys_created_on>
-        <sys_id>1cda6ac9936c8610d465bd4f7bba109e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:59:18</sys_updated_on>
-        <value>e69ede41932c8610d465bd4f7bba1031</value>
-        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>82dcd28d93e88610d465bd4f7bba100a</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 15:05:15</sys_created_on>
-        <sys_id>e07e5a41932c8610d465bd4f7bba1023</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:59:18</sys_updated_on>
-        <value>x_1309020_project_orders</value>
-        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=82dcd28d93e88610d465bd4f7bba100a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>82dcd28d93e88610d465bd4f7bba100a</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 15:59:18</sys_created_on>
-        <sys_id>d8da6ac9936c8610d465bd4f7bba109d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:59:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>82dcd28d93e88610d465bd4f7bba100a</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 15:05:15</sys_created_on>
-        <sys_id>607e5a41932c8610d465bd4f7bba1023</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:59:18</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value>{{ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>82dcd28d93e88610d465bd4f7bba100a</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 15:05:15</sys_created_on>
-        <sys_id>a87e5a41932c8610d465bd4f7bba1022</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:05:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=82dcd28d93e88610d465bd4f7bba100a"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82dcd28d93e88610d465bd4f7bba100a"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
@@ -1252,10 +1156,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>8a9a9a0993e88610d465bd4f7bba1075</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <ui_id>ae31fdc3-ee3b-402a-8ac9-0d60eea3b587</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a9a9a0993e88610d465bd4f7bba1075"/>
@@ -1292,11 +1196,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>8a9a9a0993e88610d465bd4f7bba1077</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:06</sys_updated_on>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:55:31</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^ordered_by={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.name}}^order_email={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.email}}^order_phone={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber}}^product_category={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware}}^product_brand={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand}}^house_number={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num}}^street={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^city={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.city}}^state={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}^country={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}^zip={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}^installation_guide=fd-scripted^pre_installed=fd-scripted^description=fd-scripted^status=pending_approval^mode_of_work=fd-scripted^ordering_user_id=fd-scripted^product=fd-scripted^product_name=fd-scripted</value>
+        <value>{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^ordered_by={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.name}}^order_email={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.email}}^order_phone={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber}}^product_category={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware}}^product_brand={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand}}^house_number={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num}}^street={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^city={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.city}}^state={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}^country={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}^zip={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}^installation_guide=fd-scripted^pre_installed=fd-scripted^status=pending_approval^mode_of_work=fd-scripted^ordering_user_id=fd-scripted^product=fd-scripted^product_name=fd-scripted</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8a9a9a0993e88610d465bd4f7bba1075^sys_idNOT IN4a9a9a0993e88610d465bd4f7bba1076"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -1304,13 +1208,13 @@
         <input_name>values</input_name>
         <instance>8a9a9a0993e88610d465bd4f7bba1075</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"installation_guide":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.installation_guide \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.installation_guide}}"},"product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"sys_id\");\n}","savedValue":""},"ordering_user_id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n//GlideRecord, access user table\nvar userTable \u003d new GlideRecord(\"sys_user\");\nuserTable.addQuery(\"name\", fd_data._1__get_catalog_variables.name);\nuserTable.addQuery(\"email\", fd_data._1__get_catalog_variables.email);\nuserTable.query();\n\n//Return the system ID of the first record returned, if there is one\nif(userTable.next()){\n    return userTable.getValue(\"sys_id\");\n}","savedValue":""},"description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nswitch (fd_data._1__get_catalog_variables.hardware){\n    case \u0027desktop\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" desktop with the following specifications:\\nBattery: \" + fd_data._1__get_catalog_variables.d_battery+\"\\nWarranty Period: \"+fd_data._1__get_catalog_variables.d_warranty + \"\\nWeight: \" + fd_data._1__get_catalog_variables.d_weight+\"\\nStorage: \"+fd_data._1__get_catalog_variables.storage+\"\\nRAM: \"+fd_data._1__get_catalog_variables.ram+\"\\nProcessor: \"+fd_data._1__get_catalog_variables.processor;\n        return desc;\n    case \u0027laptop\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" laptop with the following specifications:\\nBattery: \" + fd_data._1__get_catalog_variables.l_battery+\"\\nWarranty Period: \"+fd_data._1__get_catalog_variables.l_warranty+\"\\nWeight: \"+fd_data._1__get_catalog_variables.l_weight+\"\\nOperating System: \"+fd_data._1__get_catalog_variables.l_os+\"\\nProcessor: \"+fd_data._1__get_catalog_variables.l_processor+\"\\nRAM: \"+fd_data._1__get_catalog_variables.l_ram+\"\\nStorage: \"+fd_data._1__get_catalog_variables.l_storage;\n        return desc;\n    case \u0027printer\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" printer with the following specifications:\\nCompatibility: \" + fd_data._1__get_catalog_variables.p_compatibility+\"\\nConnectivity: \"+fd_data._1__get_catalog_variables.p_connectivity+\"\\nTechnology: \"+fd_data._1__get_catalog_variables.p_techonology+\"\\nType: \"+fd_data._1__get_catalog_variables.p_type;\n        return desc;\n    case \u0027router\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" router with the following specifications:\\nAntenna: \" + fd_data._1__get_catalog_variables.r_antenna+\"\\nFeatures: \"+fd_data._1__get_catalog_variables.r_features+\"\\nFrequency: \"+fd_data._1__get_catalog_variables.r_frequency+\"\\nType: \"+fd_data._1__get_catalog_variables.r_type;\n        return desc; \n}","savedValue":""},"pre_installed":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.pre_installation \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.pre_installation}}"},"mode_of_work":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nif(fd_data._1__get_catalog_variables.mode_of_work \u003d\u003d\u0027office\u0027){\n    return \u0027onsite\u0027;\n}\nelse{\n    return \u0027remote\u0027;\n}","savedValue":""},"product_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"name\");\n}","savedValue":""}}</script>
+        <script>{"zip":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}"},"country":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}"},"installation_guide":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.installation_guide \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.installation_guide}}"},"product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"sys_id\");\n}","savedValue":""},"ordering_user_id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n//GlideRecord, access user table\nvar userTable \u003d new GlideRecord(\"sys_user\");\nuserTable.addQuery(\"name\", fd_data._1__get_catalog_variables.name);\nuserTable.addQuery(\"email\", fd_data._1__get_catalog_variables.email);\nuserTable.query();\n\n//Return the system ID of the first record returned, if there is one\nif(userTable.next()){\n    return userTable.getValue(\"sys_id\");\n}","savedValue":""},"state":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}"},"pre_installed":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.pre_installation \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.pre_installation}}"},"mode_of_work":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nif(fd_data._1__get_catalog_variables.mode_of_work \u003d\u003d\u0027office\u0027){\n    return \u0027onsite\u0027;\n}\nelse{\n    return \u0027remote\u0027;\n}","savedValue":""},"product_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"name\");\n}","savedValue":""},"status":{"scriptActive":false,"savedValue":"pending_approval"}}</script>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>4a9a9a0993e88610d465bd4f7bba1076</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:06</sys_updated_on>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:55:31</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a9a9a0993e88610d465bd4f7bba1075"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1318,20 +1222,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>21</order>
+        <order>20</order>
         <parent_ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:46:10</sys_created_on>
         <sys_id>bfc72a45936c8610d465bd4f7bba107b</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>06b6e77d-7a3b-4739-aae8-475cab2066b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bfc72a45936c8610d465bd4f7bba107b"/>
@@ -1407,20 +1310,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>26</order>
+        <order>25</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>c5272205936c8610d465bd4f7bba107b</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>e0d16828-0887-42d3-99f4-ed6ddce51c68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c5272205936c8610d465bd4f7bba107b"/>
@@ -1496,7 +1398,6 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
@@ -1506,10 +1407,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 14:48:26</sys_created_on>
         <sys_id>c69a9a0993e88610d465bd4f7bba1048</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <ui_id>b00d1edf-0f7f-40be-aef4-1175f8896f1b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c69a9a0993e88610d465bd4f7bba1048"/>
@@ -1585,20 +1486,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>25</order>
+        <order>24</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>c9272205936c8610d465bd4f7bba1074</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>9ff0de56-aa7e-4cac-85c5-3ee28cd1496e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c9272205936c8610d465bd4f7bba1074"/>
@@ -1637,11 +1537,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>49272205936c8610d465bd4f7bba1076</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:43:14</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:11:27</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b5ac2504-cfdf-4828-bc08-f5abfc710467" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b5ac2504-cfdf-4828-bc08-f5abfc710467" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order for the item&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1db8ecea-d20f-40d0-a241-7b864d4e1d50}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; hardware"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;hardware&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1db8ecea-d20f-40d0-a241-7b864d4e1d50" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:88de5cb2-8f3e-4b9c-86fb-93115ec9e0ac}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; brand"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;brand&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_88de5cb2-8f3e-4b9c-86fb-93115ec9e0ac" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; is rejected.&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1675,20 +1575,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>7</order>
+        <order>6</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:18:10</sys_created_on>
         <sys_id>e561e209932c8610d465bd4f7bba1021</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>d67f6b18-545f-4204-948d-b4239641ba14</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e561e209932c8610d465bd4f7bba1021"/>
@@ -1803,20 +1702,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>15</order>
+        <order>14</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>f0272205936c8610d465bd4f7bba103b</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>b08ff75a-73d1-4523-bffd-1a5be2b55039</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f0272205936c8610d465bd4f7bba103b"/>
@@ -1855,11 +1753,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>74272205936c8610d465bd4f7bba103d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:43:14</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:11:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c43da52-1324-412b-a3e0-566639255a23" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c43da52-1324-412b-a3e0-566639255a23" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is on the way.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1893,20 +1791,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>8</order>
+        <order>7</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:13</sys_created_on>
         <sys_id>f027eec1936c8610d465bd4f7bba10c8</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>77606b7e-b488-4c8a-8a1a-d30fc7cbe69a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f027eec1936c8610d465bd4f7bba10c8"/>
@@ -1982,20 +1879,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">eb8a0dfc93640610d465bd4f7bba1051</flow>
-        <order>24</order>
+        <order>23</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>f8272205936c8610d465bd4f7bba106c</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>a7bc502e-c298-41d1-b5ce-eec7d8edf15d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f8272205936c8610d465bd4f7bba106c"/>
@@ -2069,8 +1965,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=eb8a0dfc93640610d465bd4f7bba1051"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=eb8a0dfc93640610d465bd4f7bba1051^sys_idNOT IN34272205936c8610d465bd4f7bba1020,3d61e209932c8610d465bd4f7bba1026,647e5a41932c8610d465bd4f7bba103a,78272205936c8610d465bd4f7bba1012,78272205936c8610d465bd4f7bba1016,7c272205936c8610d465bd4f7bba1052,bfc72a45936c8610d465bd4f7bba1075"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">aa32593a930d821060fdff118bba10a8</block>
+        <block display_value="">870f758b93050e10d465bd4f7bba10aa</block>
         <comment/>
         <connected_to>9f50420c-48d6-401a-ab51-5b9b8f973b6e</connected_to>
         <decision_table/>
@@ -2082,7 +1977,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>13</order>
+        <order>12</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</parent_ui_id>
@@ -2090,10 +1985,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>34272205936c8610d465bd4f7bba1020</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2102,8 +1997,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=34272205936c8610d465bd4f7bba1020"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=34272205936c8610d465bd4f7bba1020"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">a232593a930d821060fdff118bba10f3</block>
+        <block display_value="">430f758b93050e10d465bd4f7bba10f5</block>
         <comment/>
         <connected_to>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</connected_to>
         <decision_table/>
@@ -2115,7 +2009,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>23</order>
+        <order>22</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2123,10 +2017,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:18:10</sys_created_on>
         <sys_id>3d61e209932c8610d465bd4f7bba1026</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2135,8 +2029,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3d61e209932c8610d465bd4f7bba1026"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3d61e209932c8610d465bd4f7bba1026"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">d632593a930d821060fdff118bba108f</block>
+        <block display_value="">cf0f758b93050e10d465bd4f7bba1085</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2157,10 +2050,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:05:15</sys_created_on>
         <sys_id>647e5a41932c8610d465bd4f7bba103a</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2182,8 +2075,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=647e5a41932c8610d465bd4f7bba103a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=647e5a41932c8610d465bd4f7bba103a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">5232593a930d821060fdff118bba109d</block>
+        <block display_value="">0f0f758b93050e10d465bd4f7bba109e</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2196,7 +2088,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>10</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -2204,10 +2096,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>78272205936c8610d465bd4f7bba1012</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2255,8 +2147,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=78272205936c8610d465bd4f7bba1012"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=78272205936c8610d465bd4f7bba1012"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">da32593a930d821060fdff118bba10a2</block>
+        <block display_value="">c70f758b93050e10d465bd4f7bba10a4</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2269,7 +2160,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>11</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</parent_ui_id>
@@ -2277,10 +2168,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>78272205936c8610d465bd4f7bba1016</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>9f50420c-48d6-401a-ab51-5b9b8f973b6e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2328,8 +2219,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=78272205936c8610d465bd4f7bba1016"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=78272205936c8610d465bd4f7bba1016"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e632593a930d821060fdff118bba10b2</block>
+        <block display_value="">070f758b93050e10d465bd4f7bba10b4</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2342,7 +2232,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>17</order>
+        <order>16</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -2350,10 +2240,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:43:14</sys_created_on>
         <sys_id>7c272205936c8610d465bd4f7bba1052</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>c10a386d-782b-4036-ae79-706d8e4de732</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2401,8 +2291,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c272205936c8610d465bd4f7bba1052"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7c272205936c8610d465bd4f7bba1052"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e232593a930d821060fdff118bba10ba</block>
+        <block display_value="">870f758b93050e10d465bd4f7bba10e1</block>
         <comment/>
         <connected_to>c10a386d-782b-4036-ae79-706d8e4de732</connected_to>
         <decision_table/>
@@ -2414,7 +2303,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>20</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -2422,10 +2311,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 15:46:10</sys_created_on>
         <sys_id>bfc72a45936c8610d465bd4f7bba1075</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:36</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:16</sys_updated_on>
         <ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2643,14 +2532,13 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>hardware_request_flow</internal_name>
-        <label_cache>[{"name":"{{static.da83a4be9385821060fdff118bba10ea}}","label":"Office Hardware Order Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mode_of_work","label":"1 - Get Catalog Variables➛mode_of_work","reference":"","reference_display":"mode_of_work","type":"choice","base_type":"choice","choices":[{"label":"Work from home","value":"home","order":100.0},{"label":"Work from office","value":"office","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record.status","label":"2 - Create Record➛Orders Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1309020_project_orders","column_name":"status","choices":[{"label":"Pending Approval","rawLabel":"Pending Approval","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"pending_approval","parameters":{"name":"x_1309020_project_orders"}},{"label":"Procuring","rawLabel":"Procuring","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"procuring","parameters":{"name":"x_1309020_project_orders"}},{"label":"Shipping","rawLabel":"Shipping","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"shipping","parameters":{"name":"x_1309020_project_orders"}},{"label":"Completed","rawLabel":"Completed","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"completed","parameters":{"name":"x_1309020_project_orders"}},{"label":"Cancelled","rawLabel":"Cancelled","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"cancelled","parameters":{"name":"x_1309020_project_orders"}}]},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record","label":"2 - Create Record➛Orders Record","reference":"x_1309020_project_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95e902cd-0575-4061-95d2-f1fda7343a28.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode","label":"1 - Get Catalog Variables➛zipcode","reference":"","reference_display":"zipcode","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.country","label":"1 - Get Catalog Variables➛country","reference":"","reference_display":"country","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.state","label":"1 - Get Catalog Variables➛state","reference":"","reference_display":"state","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.city","label":"1 - Get Catalog Variables➛city","reference":"","reference_display":"city","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name","label":"1 - Get Catalog Variables➛street_name","reference":"","reference_display":"street_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num","label":"1 - Get Catalog Variables➛house_num","reference":"","reference_display":"house_num","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand","label":"1 - Get Catalog Variables➛brand","reference":"","reference_display":"brand","type":"choice","base_type":"choice","attributes":{"catalogType":"22","catalogTypeLabel":"Lookup Multiple Choice"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware","label":"1 - Get Catalog Variables➛hardware","reference":"","reference_display":"hardware","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber","label":"1 - Get Catalog Variables➛mobilenumber","reference":"","reference_display":"mobilenumber","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <label_cache>[{"name":"{{static.8c92552e93c90210d465bd4f7bba10bc}}","label":"Minhaj I K","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.5054bbc093240210d465bd4f7bba1028}}","label":"Dakota Gray","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.06dee34093600210d465bd4f7bba10e4}}","label":"Service It","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.da83a4be9385821060fdff118bba10ea}}","label":"Office Hardware Order Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mode_of_work","label":"1 - Get Catalog Variables➛mode_of_work","reference":"","reference_display":"mode_of_work","type":"choice","base_type":"choice","choices":[{"label":"Work from home","value":"home","order":100.0},{"label":"Work from office","value":"office","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record.status","label":"2 - Create Record➛Orders Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1309020_project_orders","column_name":"status","choices":[{"label":"Pending Approval","image":"","used":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"reference":false,"value":"pending_approval","parameters":{"name":"x_1309020_project_orders"}},{"label":"Procuring","image":"","used":false,"rawLabel":"Procuring","selected":false,"missing":false,"reference":false,"value":"procuring","parameters":{"name":"x_1309020_project_orders"}},{"label":"Shipping","image":"","used":false,"rawLabel":"Shipping","selected":false,"missing":false,"reference":false,"value":"shipping","parameters":{"name":"x_1309020_project_orders"}},{"label":"Completed","image":"","used":false,"rawLabel":"Completed","selected":false,"missing":false,"reference":false,"value":"completed","parameters":{"name":"x_1309020_project_orders"}},{"label":"Cancelled","image":"","used":false,"rawLabel":"Cancelled","selected":false,"missing":false,"reference":false,"value":"cancelled","parameters":{"name":"x_1309020_project_orders"}}]},{"name":"ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record","label":"2 - Create Record➛Orders Record","reference":"x_1309020_project_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95e902cd-0575-4061-95d2-f1fda7343a28.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode","label":"1 - Get Catalog Variables➛zipcode","reference":"","reference_display":"zipcode","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.country","label":"1 - Get Catalog Variables➛country","reference":"","reference_display":"country","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.state","label":"1 - Get Catalog Variables➛state","reference":"","reference_display":"state","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.city","label":"1 - Get Catalog Variables➛city","reference":"","reference_display":"city","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name","label":"1 - Get Catalog Variables➛street_name","reference":"","reference_display":"street_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num","label":"1 - Get Catalog Variables➛house_num","reference":"","reference_display":"house_num","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand","label":"1 - Get Catalog Variables➛brand","reference":"","reference_display":"brand","type":"choice","base_type":"choice","attributes":{"catalogType":"22","catalogTypeLabel":"Lookup Multiple Choice"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware","label":"1 - Get Catalog Variables➛hardware","reference":"","reference_display":"hardware","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber","label":"1 - Get Catalog Variables➛mobilenumber","reference":"","reference_display":"mobilenumber","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b00d1edf-0f7f-40be-aef4-1175f8896f1b.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
         <name>Hardware_Request_Flow</name>
         <natlang/>
@@ -2667,15 +2555,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a067cf819360c610d465bd4f7bba105a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a067cf819360c610d465bd4f7bba105a"/>
@@ -2690,10 +2578,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>916703c19360c610d465bd4f7bba106c</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2778,16 +2666,19 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>b067cf819360c610d465bd4f7bba107e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:30</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_firstname/>
+        <u_lastcontacted/>
+        <u_lastname/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -2798,7 +2689,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b067cf819360c610d465bd4f7bba107e"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2862,16 +2752,19 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:07</sys_created_on>
         <sys_id>e467cf819360c610d465bd4f7bba105c</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:30</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_firstname/>
+        <u_lastcontacted/>
+        <u_lastname/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -2882,29 +2775,27 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e467cf819360c610d465bd4f7bba105c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a067cf819360c610d465bd4f7bba105a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a067cf819360c610d465bd4f7bba105a"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a067cf819360c610d465bd4f7bba105a^sys_idNOT IN0567cf819360c610d465bd4f7bba10ec,0d6703c19360c610d465bd4f7bba1021,156703c19360c610d465bd4f7bba1063,1d6703c19360c610d465bd4f7bba105a,3c67cf819360c610d465bd4f7bba10d9,4d6703c19360c610d465bd4f7bba100c,816703c19360c610d465bd4f7bba1045,896703c19360c610d465bd4f7bba103c,8d6703c19360c610d465bd4f7bba1006,8d6703c19360c610d465bd4f7bba1029,8d67cf819360c610d465bd4f7bba10f5,8d67cf819360c610d465bd4f7bba10ff,916703c19360c610d465bd4f7bba106a,b467cf819360c610d465bd4f7bba10b3,b467cf819360c610d465bd4f7bba10e1,b867cf819360c610d465bd4f7bba10c3,bc67cf819360c610d465bd4f7bba10bb,d16703c19360c610d465bd4f7bba1054,d96703c19360c610d465bd4f7bba104b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a067cf819360c610d465bd4f7bba105a^sys_idNOT IN0567cf819360c610d465bd4f7bba10ec,0d6703c19360c610d465bd4f7bba1021,156703c19360c610d465bd4f7bba1063,1d6703c19360c610d465bd4f7bba105a,3c67cf819360c610d465bd4f7bba10d9,4d6703c19360c610d465bd4f7bba100c,816703c19360c610d465bd4f7bba1045,896703c19360c610d465bd4f7bba103c,8d6703c19360c610d465bd4f7bba1006,8d6703c19360c610d465bd4f7bba1029,8d67cf819360c610d465bd4f7bba10f5,8d67cf819360c610d465bd4f7bba10ff,916703c19360c610d465bd4f7bba106a,b467cf819360c610d465bd4f7bba10b3,b467cf819360c610d465bd4f7bba10e1,bc67cf819360c610d465bd4f7bba10bb,d16703c19360c610d465bd4f7bba1054,d96703c19360c610d465bd4f7bba104b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>7</order>
+        <order>6</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>0567cf819360c610d465bd4f7bba10ec</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>d67f6b18-545f-4204-948d-b4239641ba14</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0567cf819360c610d465bd4f7bba10ec"/>
@@ -3019,20 +2910,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>15</order>
+        <order>14</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>0d6703c19360c610d465bd4f7bba1021</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>b08ff75a-73d1-4523-bffd-1a5be2b55039</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d6703c19360c610d465bd4f7bba1021"/>
@@ -3071,11 +2961,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>896703c19360c610d465bd4f7bba1023</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:09</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:44:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c43da52-1324-412b-a3e0-566639255a23" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c43da52-1324-412b-a3e0-566639255a23}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c43da52-1324-412b-a3e0-566639255a23" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is on the way.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3109,20 +2999,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>25</order>
+        <order>24</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>156703c19360c610d465bd4f7bba1063</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>9ff0de56-aa7e-4cac-85c5-3ee28cd1496e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=156703c19360c610d465bd4f7bba1063"/>
@@ -3161,11 +3050,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>916703c19360c610d465bd4f7bba1065</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:10</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:44:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b5ac2504-cfdf-4828-bc08-f5abfc710467" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b5ac2504-cfdf-4828-bc08-f5abfc710467}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b5ac2504-cfdf-4828-bc08-f5abfc710467" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order for the item&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1db8ecea-d20f-40d0-a241-7b864d4e1d50}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; hardware"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;hardware&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1db8ecea-d20f-40d0-a241-7b864d4e1d50" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:88de5cb2-8f3e-4b9c-86fb-93115ec9e0ac}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; brand"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;brand&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_88de5cb2-8f3e-4b9c-86fb-93115ec9e0ac" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; is rejected.&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3199,20 +3088,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>24</order>
+        <order>23</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>1d6703c19360c610d465bd4f7bba105a</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>a7bc502e-c298-41d1-b5ce-eec7d8edf15d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d6703c19360c610d465bd4f7bba105a"/>
@@ -3288,7 +3176,6 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
@@ -3298,10 +3185,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>3c67cf819360c610d465bd4f7bba10d9</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>95e902cd-0575-4061-95d2-f1fda7343a28</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3c67cf819360c610d465bd4f7bba10d9"/>
@@ -3368,11 +3255,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>f067cf819360c610d465bd4f7bba10dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 16:33:24</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:44:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}}]G[{{static.da83a4be9385821060fdff118bba10ea}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}},{{static.06dee34093600210d465bd4f7bba10e4}},{{static.5054bbc093240210d465bd4f7bba1028}},{{static.8c92552e93c90210d465bd4f7bba10bc}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -3441,20 +3328,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>14</order>
+        <order>13</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>4d6703c19360c610d465bd4f7bba100c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>fdd7d549-dcaf-4880-8b7d-d90731b1ce1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d6703c19360c610d465bd4f7bba100c"/>
@@ -3530,20 +3416,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>19</order>
+        <order>18</order>
         <parent_ui_id>c10a386d-782b-4036-ae79-706d8e4de732</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>816703c19360c610d465bd4f7bba1045</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>d90ed514-cf64-4a24-afb5-6fe15c4de866</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=816703c19360c610d465bd4f7bba1045"/>
@@ -3582,11 +3467,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>116703c19360c610d465bd4f7bba1047</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:10</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:44:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4132486a-6ea2-4082-88a3-a499076ac029" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:4132486a-6ea2-4082-88a3-a499076ac029}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_4132486a-6ea2-4082-88a3-a499076ac029" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is compelted!&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3620,20 +3505,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>18</order>
+        <order>17</order>
         <parent_ui_id>c10a386d-782b-4036-ae79-706d8e4de732</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>896703c19360c610d465bd4f7bba103c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>7074d133-01d6-4006-b80d-2e5880955163</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=896703c19360c610d465bd4f7bba103c"/>
@@ -3709,20 +3593,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>12</order>
+        <order>11</order>
         <parent_ui_id>9f50420c-48d6-401a-ab51-5b9b8f973b6e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>8d6703c19360c610d465bd4f7bba1006</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>89c763db-312c-4838-a466-74b28aff9a70</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d6703c19360c610d465bd4f7bba1006"/>
@@ -3798,20 +3681,19 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>16</order>
+        <order>15</order>
         <parent_ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>8d6703c19360c610d465bd4f7bba1029</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>31550a82-b012-4698-b88f-87f42dd4fb93</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d6703c19360c610d465bd4f7bba1029"/>
@@ -3887,20 +3769,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>8</order>
+        <order>7</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>8d67cf819360c610d465bd4f7bba10f5</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>77606b7e-b488-4c8a-8a1a-d30fc7cbe69a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d67cf819360c610d465bd4f7bba10f5"/>
@@ -3976,20 +3857,19 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:09</sys_created_on>
         <sys_id>8d67cf819360c610d465bd4f7bba10ff</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>116431e4-07d0-46fe-9a9f-510c249e9e1d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d67cf819360c610d465bd4f7bba10ff"/>
@@ -4065,20 +3945,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>26</order>
+        <order>25</order>
         <parent_ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>916703c19360c610d465bd4f7bba106a</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>e0d16828-0887-42d3-99f4-ed6ddce51c68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=916703c19360c610d465bd4f7bba106a"/>
@@ -4154,7 +4033,6 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
@@ -4164,10 +4042,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>b467cf819360c610d465bd4f7bba10b3</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>b00d1edf-0f7f-40be-aef4-1175f8896f1b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b467cf819360c610d465bd4f7bba10b3"/>
@@ -4243,20 +4121,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>6</order>
-        <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
+        <order>3</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>b467cf819360c610d465bd4f7bba10e1</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>13a0ad44-5ac1-48f0-a1c6-f4142fb76581</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b467cf819360c610d465bd4f7bba10e1"/>
@@ -4330,98 +4207,8 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
-        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>b867cf819360c610d465bd4f7bba10c3</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
-        <ui_id>dc21b21b-c9f1-4fe8-9b53-35f734501939</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b867cf819360c610d465bd4f7bba10c3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>b867cf819360c610d465bd4f7bba10c3</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>b867cf819360c610d465bd4f7bba10c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:08</sys_updated_on>
-        <value>x_1309020_project_orders</value>
-        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>b867cf819360c610d465bd4f7bba10c3</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>f467cf819360c610d465bd4f7bba10c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:08</sys_updated_on>
-        <value>e69ede41932c8610d465bd4f7bba1031</value>
-        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b867cf819360c610d465bd4f7bba10c3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>b867cf819360c610d465bd4f7bba10c3</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>fc67cf819360c610d465bd4f7bba10c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>b867cf819360c610d465bd4f7bba10c3</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>7467cf819360c610d465bd4f7bba10c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value>{{ae31fdc3-ee3b-402a-8ac9-0d60eea3b587.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>b867cf819360c610d465bd4f7bba10c3</id>
-        <sys_created_by>It service</sys_created_by>
-        <sys_created_on>2024-02-22 18:04:08</sys_created_on>
-        <sys_id>b067cf819360c610d465bd4f7bba10c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b867cf819360c610d465bd4f7bba10c3"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b867cf819360c610d465bd4f7bba10c3"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
@@ -4431,10 +4218,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>bc67cf819360c610d465bd4f7bba10bb</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>ae31fdc3-ee3b-402a-8ac9-0d60eea3b587</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc67cf819360c610d465bd4f7bba10bb"/>
@@ -4471,11 +4258,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>f867cf819360c610d465bd4f7bba10bd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:30</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^ordered_by={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.name}}^order_email={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.email}}^order_phone={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber}}^product_category={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware}}^product_brand={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand}}^house_number={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num}}^street={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^city={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.city}}^state={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}^country={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}^zip={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}^installation_guide=fd-scripted^pre_installed=fd-scripted^description=fd-scripted^status=pending_approval^mode_of_work=fd-scripted^ordering_user_id=fd-scripted^product=fd-scripted^product_name=fd-scripted</value>
+        <value>{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^ordered_by={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.name}}^order_email={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.email}}^order_phone={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.mobilenumber}}^product_category={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.hardware}}^product_brand={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.brand}}^house_number={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.house_num}}^street={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.street_name}}^city={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.city}}^state={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}^country={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}^zip={{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}^installation_guide=fd-scripted^pre_installed=fd-scripted^status=pending_approval^mode_of_work=fd-scripted^ordering_user_id=fd-scripted^product=fd-scripted^product_name=fd-scripted</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bc67cf819360c610d465bd4f7bba10bb^sys_idNOT IN3c67cf819360c610d465bd4f7bba10bc"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -4483,13 +4270,13 @@
         <input_name>values</input_name>
         <instance>bc67cf819360c610d465bd4f7bba10bb</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"installation_guide":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.installation_guide \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.installation_guide}}"},"product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"sys_id\");\n}","savedValue":""},"ordering_user_id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n//GlideRecord, access user table\nvar userTable \u003d new GlideRecord(\"sys_user\");\nuserTable.addQuery(\"name\", fd_data._1__get_catalog_variables.name);\nuserTable.addQuery(\"email\", fd_data._1__get_catalog_variables.email);\nuserTable.query();\n\n//Return the system ID of the first record returned, if there is one\nif(userTable.next()){\n    return userTable.getValue(\"sys_id\");\n}","savedValue":""},"description":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nswitch (fd_data._1__get_catalog_variables.hardware){\n    case \u0027desktop\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" desktop with the following specifications:\\nBattery: \" + fd_data._1__get_catalog_variables.d_battery+\"\\nWarranty Period: \"+fd_data._1__get_catalog_variables.d_warranty + \"\\nWeight: \" + fd_data._1__get_catalog_variables.d_weight+\"\\nStorage: \"+fd_data._1__get_catalog_variables.storage+\"\\nRAM: \"+fd_data._1__get_catalog_variables.ram+\"\\nProcessor: \"+fd_data._1__get_catalog_variables.processor;\n        return desc;\n    case \u0027laptop\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" laptop with the following specifications:\\nBattery: \" + fd_data._1__get_catalog_variables.l_battery+\"\\nWarranty Period: \"+fd_data._1__get_catalog_variables.l_warranty+\"\\nWeight: \"+fd_data._1__get_catalog_variables.l_weight+\"\\nOperating System: \"+fd_data._1__get_catalog_variables.l_os+\"\\nProcessor: \"+fd_data._1__get_catalog_variables.l_processor+\"\\nRAM: \"+fd_data._1__get_catalog_variables.l_ram+\"\\nStorage: \"+fd_data._1__get_catalog_variables.l_storage;\n        return desc;\n    case \u0027printer\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" printer with the following specifications:\\nCompatibility: \" + fd_data._1__get_catalog_variables.p_compatibility+\"\\nConnectivity: \"+fd_data._1__get_catalog_variables.p_connectivity+\"\\nTechnology: \"+fd_data._1__get_catalog_variables.p_techonology+\"\\nType: \"+fd_data._1__get_catalog_variables.p_type;\n        return desc;\n    case \u0027router\u0027:\n        var desc\u003d \"A \"+ fd_data._1__get_catalog_variables.brand + \" router with the following specifications:\\nAntenna: \" + fd_data._1__get_catalog_variables.r_antenna+\"\\nFeatures: \"+fd_data._1__get_catalog_variables.r_features+\"\\nFrequency: \"+fd_data._1__get_catalog_variables.r_frequency+\"\\nType: \"+fd_data._1__get_catalog_variables.r_type;\n        return desc; \n}","savedValue":""},"pre_installed":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.pre_installation \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.pre_installation}}"},"mode_of_work":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nif(fd_data._1__get_catalog_variables.mode_of_work \u003d\u003d\u0027office\u0027){\n    return \u0027onsite\u0027;\n}\nelse{\n    return \u0027remote\u0027;\n}","savedValue":""},"product_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"name\");\n}","savedValue":""}}</script>
+        <script>{"zip":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.zipcode}}"},"country":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.country}}"},"installation_guide":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.installation_guide \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.installation_guide}}"},"product":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"sys_id\");\n}","savedValue":""},"ordering_user_id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n//GlideRecord, access user table\nvar userTable \u003d new GlideRecord(\"sys_user\");\nuserTable.addQuery(\"name\", fd_data._1__get_catalog_variables.name);\nuserTable.addQuery(\"email\", fd_data._1__get_catalog_variables.email);\nuserTable.query();\n\n//Return the system ID of the first record returned, if there is one\nif(userTable.next()){\n    return userTable.getValue(\"sys_id\");\n}","savedValue":""},"state":{"scriptActive":false,"savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.state}}"},"pre_installed":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n return (fd_data._1__get_catalog_variables.pre_installation \u003d\u003d \"Yes\" ? true : false);","savedValue":"{{b00d1edf-0f7f-40be-aef4-1175f8896f1b.pre_installation}}"},"mode_of_work":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nif(fd_data._1__get_catalog_variables.mode_of_work \u003d\u003d\u0027office\u0027){\n    return \u0027onsite\u0027;\n}\nelse{\n    return \u0027remote\u0027;\n}","savedValue":""},"product_name":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n* This is only a temporary solution.\n* It will only work as long as each brand only has one product for each product category.\n* As soon as they introduce a second, we\u0027ll need to rework the entire project.\n* For now, we can use this issue to our advantage with the following code.\n*/\nvar prodTable \u003d new GlideRecord(\"x_1309020_project_product\");\nprodTable.addQuery(\"category\", fd_data._1__get_catalog_variables.hardware);\nprodTable.addQuery(\"brand\", fd_data._1__get_catalog_variables.brand);\nprodTable.query();\n\n//Return the first product you see, if there is one\nif(prodTable.next()){\n    return prodTable.getValue(\"name\");\n}","savedValue":""},"status":{"scriptActive":false,"savedValue":"pending_approval"}}</script>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>3c67cf819360c610d465bd4f7bba10bc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:30</sys_updated_on>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:09</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc67cf819360c610d465bd4f7bba10bb"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -4497,20 +4284,19 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>22</order>
+        <order>21</order>
         <parent_ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>d16703c19360c610d465bd4f7bba1054</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>7cee3127-8608-43c8-8531-aac77d545be4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d16703c19360c610d465bd4f7bba1054"/>
@@ -4549,11 +4335,11 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>516703c19360c610d465bd4f7bba1056</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:04:10</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:44:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_738e2068-541c-4e4f-b190-4223b69b992b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:738e2068-541c-4e4f-b190-4223b69b992b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_738e2068-541c-4e4f-b190-4223b69b992b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Your order is failed.&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4587,20 +4373,19 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Hardware_Request_Flow">a067cf819360c610d465bd4f7bba105a</flow>
-        <order>21</order>
+        <order>20</order>
         <parent_ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:10</sys_created_on>
         <sys_id>d96703c19360c610d465bd4f7bba104b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>06b6e77d-7a3b-4739-aae8-475cab2066b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d96703c19360c610d465bd4f7bba104b"/>
@@ -4674,8 +4459,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a067cf819360c610d465bd4f7bba105a"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a067cf819360c610d465bd4f7bba105a^sys_idNOT IN7067cf819360c610d465bd4f7bba1092,7867cf819360c610d465bd4f7bba1098,7c67cf819360c610d465bd4f7bba1089,bc67cf819360c610d465bd4f7bba109e,f067cf819360c610d465bd4f7bba108e,f067cf819360c610d465bd4f7bba109c,f867cf819360c610d465bd4f7bba1095"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">da32593a930d821060fdff118bba10a2</block>
+        <block display_value="">c70f758b93050e10d465bd4f7bba10a4</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -4688,7 +4472,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>11</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</parent_ui_id>
@@ -4696,10 +4480,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>7067cf819360c610d465bd4f7bba1092</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>9f50420c-48d6-401a-ab51-5b9b8f973b6e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4747,8 +4531,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7067cf819360c610d465bd4f7bba1092"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7067cf819360c610d465bd4f7bba1092"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e632593a930d821060fdff118bba10b2</block>
+        <block display_value="">070f758b93050e10d465bd4f7bba10b4</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -4761,7 +4544,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>17</order>
+        <order>16</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -4769,10 +4552,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>7867cf819360c610d465bd4f7bba1098</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>c10a386d-782b-4036-ae79-706d8e4de732</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4820,8 +4603,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7867cf819360c610d465bd4f7bba1098"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7867cf819360c610d465bd4f7bba1098"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">d632593a930d821060fdff118bba108f</block>
+        <block display_value="">cf0f758b93050e10d465bd4f7bba1085</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -4842,10 +4624,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>7c67cf819360c610d465bd4f7bba1089</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4867,8 +4649,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c67cf819360c610d465bd4f7bba1089"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7c67cf819360c610d465bd4f7bba1089"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">a232593a930d821060fdff118bba10f3</block>
+        <block display_value="">430f758b93050e10d465bd4f7bba10f5</block>
         <comment/>
         <connected_to>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</connected_to>
         <decision_table/>
@@ -4880,7 +4661,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>23</order>
+        <order>22</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -4888,10 +4669,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>bc67cf819360c610d465bd4f7bba109e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>1f23d5ad-561b-42e0-b8fb-930d094a34e2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4900,8 +4681,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bc67cf819360c610d465bd4f7bba109e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bc67cf819360c610d465bd4f7bba109e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">5232593a930d821060fdff118bba109d</block>
+        <block display_value="">0f0f758b93050e10d465bd4f7bba109e</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -4914,7 +4694,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>10</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -4922,10 +4702,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>f067cf819360c610d465bd4f7bba108e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4973,8 +4753,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f067cf819360c610d465bd4f7bba108e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f067cf819360c610d465bd4f7bba108e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e232593a930d821060fdff118bba10ba</block>
+        <block display_value="">870f758b93050e10d465bd4f7bba10e1</block>
         <comment/>
         <connected_to>c10a386d-782b-4036-ae79-706d8e4de732</connected_to>
         <decision_table/>
@@ -4986,7 +4765,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>20</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>2f0eeb6a-4f7d-4928-b802-ab9ff08ade91</parent_ui_id>
@@ -4994,10 +4773,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>f067cf819360c610d465bd4f7bba109c</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:11</sys_updated_on>
         <ui_id>c3f0afce-4087-4e45-b5e4-caf853aa5db4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5006,8 +4785,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f067cf819360c610d465bd4f7bba109c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f067cf819360c610d465bd4f7bba109c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">aa32593a930d821060fdff118bba10a8</block>
+        <block display_value="">870f758b93050e10d465bd4f7bba10aa</block>
         <comment/>
         <connected_to>9f50420c-48d6-401a-ab51-5b9b8f973b6e</connected_to>
         <decision_table/>
@@ -5019,7 +4797,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>13</order>
+        <order>12</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>521e65fd-c0fd-4714-9de4-9c6d33b73346</parent_ui_id>
@@ -5027,10 +4805,10 @@
         <sys_created_by>It service</sys_created_by>
         <sys_created_on>2024-02-22 18:04:08</sys_created_on>
         <sys_id>f867cf819360c610d465bd4f7bba1095</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:31</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:10</sys_updated_on>
         <ui_id>29fc01f6-cb46-4acb-9744-cac853aac93f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5246,7 +5024,7 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>eb8a0dfc93640610d465bd4f7bba1051</sys_id>
         <latest_snapshot>a067cf819360c610d465bd4f7bba105a</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=eb8a0dfc93640610d465bd4f7bba1051^sys_idNOT IN0e6743c19360c610d465bd4f7bba1093"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
@@ -5259,11 +5037,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0e6743c19360c610d465bd4f7bba1093</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 17:09:35</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-25 13:57:15</sys_updated_on>
         <trigger display_value="">c26743c19360c610d465bd4f7bba1093</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=eb8a0dfc93640610d465bd4f7bba1051"/>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="Hardware orderings">9aab4ec193688610d465bd4f7bba1020</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>LoremFRTYHUNO^&amp;INK</short_description>
+        <size>md</size>
+        <sp_column display_value="2">218a960993e88610d465bd4f7bba10a1</sp_column>
+        <sp_page display_value="kb_category">0e461a2147132100ba13a5554ee4900e</sp_page>
+        <sp_widget display_value="Hardware Icon Link">4279a6c5936c8610d465bd4f7bba109a</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 16:03:43</sys_created_on>
+        <sys_id>05dbea4d936c8610d465bd4f7bba102b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_link_05dbea4d936c8610d465bd4f7bba102b</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 16:37:15</sys_updated_on>
+        <title>Knowledge Base</title>
+        <type>kb_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Top Icon",
+		"displayValue": "Color Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=05dbea4d936c8610d465bd4f7bba102b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sp_instance_link_05dbea4d936c8610d465bd4f7bba102b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category display_value="Hardware orderings"&gt;9aab4ec193688610d465bd4f7bba1020&lt;/kb_category&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;LoremFRTYHUNO^&amp;amp;INK&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;218a960993e88610d465bd4f7bba10a1&lt;/sp_column&gt;&lt;sp_page display_value="kb_category"&gt;0e461a2147132100ba13a5554ee4900e&lt;/sp_page&gt;&lt;sp_widget display_value="Hardware Icon Link"&gt;4279a6c5936c8610d465bd4f7bba109a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;It service&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 16:03:43&lt;/sys_created_on&gt;&lt;sys_id&gt;05dbea4d936c8610d465bd4f7bba102b&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Base&lt;/sys_name&gt;&lt;sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project 2: Office Hardware Catalog"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_05dbea4d936c8610d465bd4f7bba102b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;It service&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 16:37:15&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Base&lt;/title&gt;&lt;type&gt;kb_category&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Top Icon",
+		"displayValue": "Color Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=05dbea4d936c8610d465bd4f7bba102b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2097635409</payload_hash>
+        <record_name>Knowledge Base</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 16:37:15</sys_created_on>
+        <sys_id>0883f2c993ac8610d465bd4f7bba105a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd1ada7bd0000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:27</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>0083f2c9acac8610f5bc5adcf5f9e15a</update_guid>
+        <update_guid_history>0083f2c9acac8610f5bc5adcf5f9e15a:2097635409,c95232895eac8610548e9d89e33c5125:158099600,b8423e498eac8610715d1582a7ccf83b:2117977233,d2323e4944ac8610198d2bb4cc2e2837:1207371975,9032ba496dac86100615c0e791e8bf6d:1720007634,0a22ba4967ac8610cb1d200f4d3b3420:2117977233,db1c6e4d716c86103e611ae884786eae:-1942435111,8ddbea4d646c86104ba6520522c52d2c:-1995684966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base">16c47a8d93ac8610d465bd4f7bba10f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 16:42:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0006d765e5734290802ddf4756962900</sys_id>
+        <sys_metadata>05dbea4d936c8610d465bd4f7bba102b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sp_instance_link_05dbea4d936c8610d465bd4f7bba102b</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_05dbea4d936c8610d465bd4f7bba102b">0883f2c993ac8610d465bd4f7bba105a</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 16:42:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

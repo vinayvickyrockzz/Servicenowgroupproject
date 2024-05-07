@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hey, there is an order.&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<p>Hey, there is an order- ${number}- ${product_name} by&nbsp; ${ordered_by}.&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>ifOrdered</name>
@@ -45,12 +45,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441,62826bf03710200044e0bfc8bcbe5df1</recipient_users>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,8c92552e93c90210d465bd4f7bba10bc</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>There is an order. </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>It service</sys_created_by>
@@ -58,15 +58,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e69ede41932c8610d465bd4f7bba1031</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ifOrdered</sys_name>
         <sys_overrides/>
         <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
         <sys_update_name>sysevent_email_action_e69ede41932c8610d465bd4f7bba1031</sys_update_name>
-        <sys_updated_by>It service</sys_updated_by>
-        <sys_updated_on>2024-02-22 15:54:17</sys_updated_on>
+        <sys_updated_by>Minhaj_IK</sys_updated_by>
+        <sys_updated_on>2024-03-24 21:17:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

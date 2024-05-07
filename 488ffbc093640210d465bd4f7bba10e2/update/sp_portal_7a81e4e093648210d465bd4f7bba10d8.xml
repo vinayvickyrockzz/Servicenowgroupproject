@@ -56,7 +56,6 @@ $text-muted:#666666;</css_variables>
         <title>Hardware Ordering</title>
         <ts_index_group/>
         <url_suffix>ho</url_suffix>
-        <rtl_enabled>false</rtl_enabled>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=7a81e4e093648210d465bd4f7bba10d8"/>
     <sys_attachment action="INSERT_OR_UPDATE">

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item>
+        <sc_category display_value="Dekstop">561cc24593688610d465bd4f7bba1006</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 13:55:50</sys_created_on>
+        <sys_id>bb8e428993688610d465bd4f7bba10a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dekstop.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sc_cat_item_category_bb8e428993688610d465bd4f7bba10a7</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 13:55:50</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sc_cat_item_category_bb8e428993688610d465bd4f7bba10a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item><sc_category display_value="Dekstop">561cc24593688610d465bd4f7bba1006</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>It service</sys_created_by><sys_created_on>2024-02-22 13:55:50</sys_created_on><sys_id>bb8e428993688610d465bd4f7bba10a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dekstop.Hardware Request</sys_name><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sc_cat_item_category_bb8e428993688610d465bd4f7bba10a7</sys_update_name><sys_updated_by>It service</sys_updated_by><sys_updated_on>2024-02-22 13:55:50</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>291353432</payload_hash>
+        <record_name>Dekstop.Hardware Request</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 13:55:51</sys_created_on>
+        <sys_id>378e428993688610d465bd4f7bba10ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd119e25e0000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>7b8e4289a3688610e7b674d1abc19daa</update_guid>
+        <update_guid_history>7b8e4289a3688610e7b674d1abc19daa:291353432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dekstop.Hardware Request">8d8862c5936c8610d465bd4f7bba10a3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 15:49:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>458fca2e588b4396982dbe1f0b2845f1</sys_id>
+        <sys_metadata>bb8e428993688610d465bd4f7bba10a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dekstop.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_bb8e428993688610d465bd4f7bba10a7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_bb8e428993688610d465bd4f7bba10a7">378e428993688610d465bd4f7bba10ab</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 15:49:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

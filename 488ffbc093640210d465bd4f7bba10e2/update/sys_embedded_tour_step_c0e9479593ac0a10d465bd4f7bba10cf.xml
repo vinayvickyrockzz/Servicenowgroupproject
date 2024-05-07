@@ -8,7 +8,7 @@
         <content><![CDATA[choose order hardware to request the hardware items
 or 
 choose the knowledge base to know about more details about devices you want to request]]></content>
-        <guide display_value="Hardware ordering tour">91798f5593ac0a10d465bd4f7bba10c7</guide>
+        <guide/>
         <implicit>false</implicit>
         <link/>
         <name>Introduction</name>

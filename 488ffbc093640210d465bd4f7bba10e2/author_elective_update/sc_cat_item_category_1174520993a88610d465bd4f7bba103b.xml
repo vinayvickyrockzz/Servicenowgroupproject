@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item>
+        <sc_category display_value="Router">ab1dce8593688610d465bd4f7bba108d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 14:21:37</sys_created_on>
+        <sys_id>1174520993a88610d465bd4f7bba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Router.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sc_cat_item_category_1174520993a88610d465bd4f7bba103b</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:21:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sc_cat_item_category_1174520993a88610d465bd4f7bba103b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item><sc_category display_value="Router">ab1dce8593688610d465bd4f7bba108d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>It service</sys_created_by><sys_created_on>2024-02-22 14:21:37</sys_created_on><sys_id>1174520993a88610d465bd4f7bba103b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Router.Hardware Request</sys_name><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sc_cat_item_category_1174520993a88610d465bd4f7bba103b</sys_update_name><sys_updated_by>It service</sys_updated_by><sys_updated_on>2024-02-22 14:21:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1642174554</payload_hash>
+        <record_name>Router.Hardware Request</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 14:21:37</sys_created_on>
+        <sys_id>5d74960993a88610d465bd4f7bba1001</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd1317c920000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>91749609fba8861090d6106a95703101</update_guid>
+        <update_guid_history>91749609fba8861090d6106a95703101:-1642174554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Router.Hardware Request">1d8862c5936c8610d465bd4f7bba10bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 15:49:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>769f5bc1e67c47c4b9512a5c3a8fcca9</sys_id>
+        <sys_metadata>1174520993a88610d465bd4f7bba103b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Router.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1174520993a88610d465bd4f7bba103b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1174520993a88610d465bd4f7bba103b">5d74960993a88610d465bd4f7bba1001</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 15:49:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

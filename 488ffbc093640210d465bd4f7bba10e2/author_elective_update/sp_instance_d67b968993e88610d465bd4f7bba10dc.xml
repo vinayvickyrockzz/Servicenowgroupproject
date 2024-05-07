@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">218a960993e88610d465bd4f7bba10a1</sp_column>
+        <sp_widget display_value="Related Catalog Item">806f40990fab2300b7b2c8337a767e6f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 14:52:16</sys_created_on>
+        <sys_id>d67b968993e88610d465bd4f7bba10dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_d67b968993e88610d465bd4f7bba10dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:53:07</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"source_table": {
+		"value": "sc_2_sc",
+		"displayValue": "sc_2_sc"
+	},
+	"source_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"target_column": {
+		"value": "related_sc_cat_item",
+		"displayValue": "related_sc_cat_item"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d67b968993e88610d465bd4f7bba10dc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sp_instance_d67b968993e88610d465bd4f7bba10dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;218a960993e88610d465bd4f7bba10a1&lt;/sp_column&gt;&lt;sp_widget display_value="Related Catalog Item"&gt;806f40990fab2300b7b2c8337a767e6f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 14:52:16&lt;/sys_created_on&gt;&lt;sys_id&gt;d67b968993e88610d465bd4f7bba10dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project 2: Office Hardware Catalog"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d67b968993e88610d465bd4f7bba10dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 14:53:07&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"source_table": {
+		"value": "sc_2_sc",
+		"displayValue": "sc_2_sc"
+	},
+	"source_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"target_column": {
+		"value": "related_sc_cat_item",
+		"displayValue": "related_sc_cat_item"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d67b968993e88610d465bd4f7bba10dc"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>272940382</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>40a5dde893e88210d465bd4f7bba10ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 14:53:07</sys_created_on>
+        <sys_id>feabd2c993e88610d465bd4f7bba10ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd14e52e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:53:07</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>f6abd2c909e8861027489155ee6c36ab</update_guid>
+        <update_guid_history>f6abd2c909e8861027489155ee6c36ab:272940382,559b1e8909e8861050a2b9e0533f0bcb:1103423976,de7b96897ce886109de27a12fc5bafdd:-1617531039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0dbb96c993e88610d465bd4f7bba10a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 14:53:16</sys_created_on>
+        <sys_db_object display_value="sp_instance" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>964600a147c6442d96a91daca2e6d8e1</sys_id>
+        <sys_metadata>d67b968993e88610d465bd4f7bba10dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sp_instance_d67b968993e88610d465bd4f7bba10dc</sys_update_name>
+        <sys_update_version display_value="sp_instance_d67b968993e88610d465bd4f7bba10dc">feabd2c993e88610d465bd4f7bba10ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:53:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
