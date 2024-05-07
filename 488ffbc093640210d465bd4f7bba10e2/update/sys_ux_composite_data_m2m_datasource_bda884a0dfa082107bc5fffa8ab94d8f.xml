@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">3da884a0eaa082109af417fb75c20191</dataset>
+        <datasource display_value="My Request - Incident datasource">71a884a0e7a08210022828eabd638590</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-20 14:53:54</sys_created_on>
+        <sys_id>bda884a0dfa082107bc5fffa8ab94d8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_bda884a0dfa082107bc5fffa8ab94d8f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-20 14:53:54</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

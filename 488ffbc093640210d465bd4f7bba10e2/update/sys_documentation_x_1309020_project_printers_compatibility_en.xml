@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="compatibility" label="Compatibility" language="en" table="x_1309020_project_printers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>compatibility</element>
+            <help/>
+            <hint/>
+            <label>Compatibility</label>
+            <language>en</language>
+            <name>x_1309020_project_printers</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 03:31:27</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Compatibility</sys_name>
+            <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+            <sys_update_name>sys_documentation_x_1309020_project_printers_compatibility_en</sys_update_name>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:31:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

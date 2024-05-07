@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0406fda093ec8210d465bd4f7bba10e8</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 22:51:42</sys_created_on>
+        <sys_id>fd0631e093ec8210d465bd4f7bba1023</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_fd0631e093ec8210d465bd4f7bba1023</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 22:52:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1>&nbsp;</h1>\r\n<p>&nbsp;</p>\r\n<h1 style=\"text-align: center;\"><strong>404 NOT FOUND</strong></h1>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+		"displayValue": "<h1>&nbsp;</h1>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\"><strong>404 NOT FOUND</strong></h1>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd0631e093ec8210d465bd4f7bba1023"/>
+</record_update>

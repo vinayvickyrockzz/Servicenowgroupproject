@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Employee Requestion">208950e093248210d465bd4f7bba1036</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 16:13:20</sys_created_on>
+        <sys_id>56da946493248210d465bd4f7bba1097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Request.catalog_hardware_request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_hardware_request">5eda946493248210d465bd4f7bba1095</sys_portal_page>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_56da946493248210d465bd4f7bba1097</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 16:13:20</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dbc5e42c93648210d465bd4f7bba105f" sys_domain="global" table="x_1309020_project_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 17:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfc5e42c93648210d465bd4f7bba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1309020_project_orders" name="x_1309020_project_orders" sys_domain="global" view="Default view">dbc5e42c93648210d465bd4f7bba105f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1309020_project_orders" sys_domain="global" view="Default view">d9ee5c2c93248210d465bd4f7bba1000</sys_ui_section>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 17:01:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 17:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fc5e42c93648210d465bd4f7bba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1309020_project_orders" name="x_1309020_project_orders" sys_domain="global" view="Default view">dbc5e42c93648210d465bd4f7bba105f</sys_ui_form>
+            <sys_ui_section caption="Product Details" display_value="Product Details" name="x_1309020_project_orders" sys_domain="global" view="Default view">53c5e42c93648210d465bd4f7bba1044</sys_ui_section>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 17:01:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 17:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bc5e42c93648210d465bd4f7bba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1309020_project_orders" name="x_1309020_project_orders" sys_domain="global" view="Default view">dbc5e42c93648210d465bd4f7bba105f</sys_ui_form>
+            <sys_ui_section caption="Purchaser Details" display_value="Purchaser Details" name="x_1309020_project_orders" sys_domain="global" view="Default view">5bc5e42c93648210d465bd4f7bba1045</sys_ui_section>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 17:01:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 17:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67c5e42c93648210d465bd4f7bba106b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1309020_project_orders" name="x_1309020_project_orders" sys_domain="global" view="Default view">dbc5e42c93648210d465bd4f7bba105f</sys_ui_form>
+            <sys_ui_section caption="Delivery Details" display_value="Delivery Details" name="x_1309020_project_orders" sys_domain="global" view="Default view">93c5e42c93648210d465bd4f7bba105f</sys_ui_section>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 17:01:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1309020_project_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 17:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbc5e42c93648210d465bd4f7bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1309020_project_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dbc5e42c93648210d465bd4f7bba105f</sys_update_name>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 17:01:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Can edit and build on my app</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1309020_project.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>dakota_gray</sys_created_by>
+        <sys_created_on>2024-02-19 19:49:12</sys_created_on>
+        <sys_id>eea2cc1c93640210d465bd4f7bba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1309020_project.admin</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_user_role_eea2cc1c93640210d465bd4f7bba108b</sys_update_name>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-02-19 19:49:12</sys_updated_on>
+    </sys_user_role>
+</record_update>

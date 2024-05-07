@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>101</order>
+        <sc_cat_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 16:35:25</sys_created_on>
+        <sys_id>bdef5cec93248210d465bd4f7bba10a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Device details.Hardware Request</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>io_set_item_bdef5cec93248210d465bd4f7bba10a9</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 19:20:49</sys_updated_on>
+        <variable_set display_value="Device details">b8cf14ec93248210d465bd4f7bba1063</variable_set>
+    </io_set_item>
+</record_update>

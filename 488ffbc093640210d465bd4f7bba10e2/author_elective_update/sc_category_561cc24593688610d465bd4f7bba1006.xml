@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware">ff4f98ac93248210d465bd4f7bba109e</parent>
+        <roles/>
+        <sc_catalog display_value="Employee Requestion">208950e093248210d465bd4f7bba1036</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 13:45:19</sys_created_on>
+        <sys_id>561cc24593688610d465bd4f7bba1006</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Desktop</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sc_category_561cc24593688610d465bd4f7bba1006</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:20:40</sys_updated_on>
+        <title>Desktop</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=561cc24593688610d465bd4f7bba1006"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sc_category_561cc24593688610d465bd4f7bba1006</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Hardware">ff4f98ac93248210d465bd4f7bba109e</parent><roles/><sc_catalog display_value="Employee Requestion">208950e093248210d465bd4f7bba1036</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>It service</sys_created_by><sys_created_on>2024-02-22 13:45:19</sys_created_on><sys_id>561cc24593688610d465bd4f7bba1006</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Desktop</sys_name><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sc_category_561cc24593688610d465bd4f7bba1006</sys_update_name><sys_updated_by>It service</sys_updated_by><sys_updated_on>2024-02-22 14:20:40</sys_updated_on><title>Desktop</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=561cc24593688610d465bd4f7bba1006"/></record_update>]]></payload>
+        <payload_hash>-1424000781</payload_hash>
+        <record_name>Desktop</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 14:20:40</sys_created_on>
+        <sys_id>5f345ac593a88610d465bd4f7bba1011</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd1309c9a0000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:27</sys_updated_on>
+        <type>Category</type>
+        <update_guid>17345ac5d2a8861001b9f8a31ce87e11</update_guid>
+        <update_guid_history>17345ac5d2a8861001b9f8a31ce87e11:-1424000781,ed2c424585688610da05e3a0a449d161:-1445396781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Desktop">498862c5936c8610d465bd4f7bba10ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 15:49:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>b68264768ff240d69f9ab6b2e0f7ffe1</sys_id>
+        <sys_metadata>561cc24593688610d465bd4f7bba1006</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Desktop</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sc_category_561cc24593688610d465bd4f7bba1006</sys_update_name>
+        <sys_update_version display_value="sc_category_561cc24593688610d465bd4f7bba1006">5f345ac593a88610d465bd4f7bba1011</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 15:49:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

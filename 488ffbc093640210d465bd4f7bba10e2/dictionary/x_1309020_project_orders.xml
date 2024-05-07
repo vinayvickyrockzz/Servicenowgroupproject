@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0bf2885c93640210d465bd4f7bba10f7" label="Orders" max_length="40" name="x_1309020_project_orders" type="collection">
+        <element label="City" mandatory="true" max_length="40" name="city" type="string"/>
+        <element label="Country" mandatory="true" max_length="40" name="country" type="string"/>
+        <element label="Delivery Description" max_length="500" name="description" type="string"/>
+        <element label="House Number" max_length="40" name="house_number" type="string"/>
+        <element label="Asked for Installation Guide?" max_length="40" name="installation_guide" type="boolean"/>
+        <element choice="3" label="Mode of Work" max_length="40" name="mode_of_work" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Onsite" sequence="0" value="onsite"/>
+                <element inactive_on_update="false" label="Remote" sequence="1" value="remote"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Ordered By" mandatory="true" max_length="40" name="ordered_by" type="string"/>
+        <element label="Ordering User ID" max_length="32" name="ordering_user_id" reference="sys_user" type="reference"/>
+        <element label="Order Email" mandatory="true" max_length="40" name="order_email" type="string"/>
+        <element label="Order Phone Number" max_length="40" name="order_phone" type="string"/>
+        <element label="Pre-Installed?" max_length="40" name="pre_installed" type="boolean"/>
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_1309020_project_product" type="reference"/>
+        <element label="Product Brand" max_length="40" name="product_brand" read_only="true" type="string"/>
+        <element label="Product Category" max_length="40" name="product_category" read_only="true" type="string"/>
+        <element label="Product Name" max_length="40" name="product_name" read_only="true" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="3" default="pending_approval" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="pending_approval"/>
+                <element inactive_on_update="false" label="Procuring" sequence="1" value="procuring"/>
+                <element inactive_on_update="false" label="Shipping" sequence="2" value="shipping"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Street" mandatory="true" max_length="40" name="street" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="ordering_user_id"/>
+        </index>
+        <index name="index2">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

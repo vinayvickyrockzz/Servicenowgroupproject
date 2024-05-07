@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Project 2: Office Hardware Catalog Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-20 14:53:54</sys_created_on>
+        <sys_id>fda884a093a08210d465bd4f7bba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project 2: Office Hardware Catalog Config</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_ux_app_config_fda884a093a08210d465bd4f7bba101e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-20 14:53:54</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sys_ux_app_config_fda884a093a08210d465bd4f7bba101e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><encode_query_string>false</encode_query_string><icon/><landing_path>landing</landing_path><name>Project 2: Office Hardware Catalog Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-02-20 14:53:54</sys_created_on><sys_id>fda884a093a08210d465bd4f7bba101e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Project 2: Office Hardware Catalog Config</sys_name><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sys_ux_app_config_fda884a093a08210d465bd4f7bba101e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-20 14:53:54</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>-6174397</payload_hash>
+        <record_name>Project 2: Office Hardware Catalog Config</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 19:26:06</sys_created_on>
+        <sys_id>cef609ac93688210d465bd4f7bba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc7fb886c0000001</sys_recorded_at>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 19:26:06</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>8ef609ac43688210acef015d4058172f</update_guid>
+        <update_guid_history>8ef609ac43688210acef015d4058172f:-6174397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 19:26:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>1f757618574c436dab648e2498657ae1</sys_id>
+        <sys_metadata>fda884a093a08210d465bd4f7bba101e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project 2: Office Hardware Catalog Config</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_fda884a093a08210d465bd4f7bba101e</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_fda884a093a08210d465bd4f7bba101e">cef609ac93688210d465bd4f7bba102f</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 19:26:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

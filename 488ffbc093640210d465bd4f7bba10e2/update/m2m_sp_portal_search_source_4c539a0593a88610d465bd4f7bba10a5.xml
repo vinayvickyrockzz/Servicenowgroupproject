@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="Hardware Ordering">7a81e4e093648210d465bd4f7bba10d8</sp_portal>
+        <sp_search_source display_value="Knowledge Bases">c6170ae86721220023c82e08f585efe6</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 14:16:37</sys_created_on>
+        <sys_id>4c539a0593a88610d465bd4f7bba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Ordering.Knowledge Bases</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_4c539a0593a88610d465bd4f7bba10a5</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 14:16:37</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>

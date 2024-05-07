@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</catalog_item>
+        <catalog_variable>IO:0df105e093688210d465bd4f7bba101d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-21 14:35:14</sys_created_on>
+        <sys_id>80fd81f493a40610d465bd4f7bba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>printer_details</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_80fd81f493a40610d465bd4f7bba10bc</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-21 14:35:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="When the device is Laptop">f39d09b493a40610d465bd4f7bba1045</ui_policy>
+        <variable>printer_details</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>catalog_ui_policy_action_80fd81f493a40610d465bd4f7bba10bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</catalog_item><catalog_variable>IO:0df105e093688210d465bd4f7bba101d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>It service</sys_created_by><sys_created_on>2024-02-21 14:35:14</sys_created_on><sys_id>80fd81f493a40610d465bd4f7bba10bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>printer_details</sys_name><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>catalog_ui_policy_action_80fd81f493a40610d465bd4f7bba10bc</sys_update_name><sys_updated_by>It service</sys_updated_by><sys_updated_on>2024-02-21 14:35:14</sys_updated_on><table/><ui_policy display_value="When the device is Laptop">f39d09b493a40610d465bd4f7bba1045</ui_policy><variable>printer_details</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-657846005</payload_hash>
+        <record_name>printer_details</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-21 14:35:14</sys_created_on>
+        <sys_id>47fdcdb493a40610d465bd4f7bba10d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dcc1795a20000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:29</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8bfdcdb4daa40610b0c97d39ff5858d6</update_guid>
+        <update_guid_history>8bfdcdb4daa40610b0c97d39ff5858d6:-657846005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="printer_details">8b17d93c93e40610d465bd4f7bba10f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-21 15:15:06</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>06c5cba4d6b4444c806be65bd949f629</sys_id>
+        <sys_metadata>80fd81f493a40610d465bd4f7bba10bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>printer_details</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_80fd81f493a40610d465bd4f7bba10bc</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_80fd81f493a40610d465bd4f7bba10bc">47fdcdb493a40610d465bd4f7bba10d7</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-21 15:15:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

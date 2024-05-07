@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">9f26b0a893e48210d465bd4f7bba1030</sp_column>
+        <sp_widget display_value="Image Link">86776e0453331300a699ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 18:22:20</sys_created_on>
+        <sys_id>c46834ac93e48210d465bd4f7bba102f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_c46834ac93e48210d465bd4f7bba102f</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:22:29</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"image": {
+		"value": "",
+		"displayValue": ""
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "https://cdn.vectorstock.com/i/preview-1x/44/49/page-not-found-error-404-system-updates-vector-42724449.jpg",
+		"displayValue": "https://cdn.vectorstock.com/i/preview-1x/44/49/page-not-found-error-404-system-updates-vector-42724449.jpg"
+	},
+	"link_title": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c46834ac93e48210d465bd4f7bba102f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sp_instance_c46834ac93e48210d465bd4f7bba102f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;9f26b0a893e48210d465bd4f7bba1030&lt;/sp_column&gt;&lt;sp_widget display_value="Image Link"&gt;86776e0453331300a699ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;It service&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-20 18:22:20&lt;/sys_created_on&gt;&lt;sys_id&gt;c46834ac93e48210d465bd4f7bba102f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project 2: Office Hardware Catalog"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_c46834ac93e48210d465bd4f7bba102f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;It service&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-20 18:22:29&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"image": {
+		"value": "",
+		"displayValue": ""
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "https://cdn.vectorstock.com/i/preview-1x/44/49/page-not-found-error-404-system-updates-vector-42724449.jpg",
+		"displayValue": "https://cdn.vectorstock.com/i/preview-1x/44/49/page-not-found-error-404-system-updates-vector-42724449.jpg"
+	},
+	"link_title": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c46834ac93e48210d465bd4f7bba102f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1737448031</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 18:22:30</sys_created_on>
+        <sys_id>da68f4ac93e48210d465bd4f7bba108a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dc7c14b1d0000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:32</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9268f4acd7e482101956b848af55678a</update_guid>
+        <update_guid_history>9268f4acd7e482101956b848af55678a:1737448031,806834ac48e48210bc05744ff60eff31:1596985814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d449f42093288210d465bd4f7bba103e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-20 18:26:11</sys_created_on>
+        <sys_db_object display_value="sp_instance" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2f62ff2eea7e4ee194058da5e6a6f6c9</sys_id>
+        <sys_metadata>c46834ac93e48210d465bd4f7bba102f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sp_instance_c46834ac93e48210d465bd4f7bba102f</sys_update_name>
+        <sys_update_version display_value="sp_instance_c46834ac93e48210d465bd4f7bba102f">da68f4ac93e48210d465bd4f7bba108a</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-20 18:26:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

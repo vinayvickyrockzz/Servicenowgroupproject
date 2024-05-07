@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="81dfedd493604210d465bd4f7bba1010" extends="x_1309020_project_product" label="Routers" max_length="40" name="x_1309020_project_routers" type="collection">
+        <element choice="1" label="Antenna" mandatory="true" max_length="40" name="antenna" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="external"/>
+            </choice>
+        </element>
+        <element label="Frequency" mandatory="true" max_length="40" name="frequency" type="string"/>
+    </element>
+</database>

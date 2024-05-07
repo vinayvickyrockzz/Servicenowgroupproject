@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9a24c1c93640210d465bd4f7bba109d" label="Product" max_length="40" name="x_1309020_project_product" type="collection">
+        <element choice="1" dependent="category" dependent_on_field="category" label="Brand" max_length="40" name="brand" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="desktop" inactive_on_update="false" label="Samsung" sequence="0" value="samsung"/>
+                <element dependent_value="desktop" inactive_on_update="false" label="Sony" sequence="1" value="sony"/>
+                <element dependent_value="desktop" inactive_on_update="false" label="Apple" sequence="2" value="apple"/>
+                <element dependent_value="laptop" inactive_on_update="false" label="Lenovo" sequence="3" value="lenovo"/>
+                <element dependent_value="printer" inactive_on_update="false" label="HP" sequence="4" value="hp"/>
+                <element dependent_value="printer" inactive_on_update="false" label="Canon" sequence="5" value="canon"/>
+                <element dependent_value="printer" inactive_on_update="false" label="Epson" sequence="6" value="epson"/>
+                <element dependent_value="router" inactive_on_update="false" label="Cicso" sequence="7" value="cicso"/>
+                <element dependent_value="router" inactive_on_update="false" label="TP-Link" sequence="8" value="tp_link"/>
+                <element dependent_value="router" inactive_on_update="false" label="D-Link" sequence="9" value="d_link"/>
+                <element dependent_value="laptop" inactive_on_update="false" label="Dell" sequence="10" value="dell"/>
+                <element dependent_value="laptop" inactive_on_update="false" label="Apple" sequence="11" value="apple"/>
+            </choice>
+        </element>
+        <element choice="3" default="other" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Desktop" sequence="0" value="desktop"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+                <element inactive_on_update="false" label="Printer" sequence="2" value="printer"/>
+                <element inactive_on_update="false" label="Router" sequence="3" value="router"/>
+                <element inactive_on_update="false" label="Accessory" sequence="4" value="accessory"/>
+                <element inactive_on_update="false" label="Other Hardware" sequence="5" value="other"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

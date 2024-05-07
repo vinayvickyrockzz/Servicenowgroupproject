@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:1811e0a093648210d465bd4f7bba10be=PRO0001007^EQ</catalog_conditions>
+        <catalog_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>os</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 18:52:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a42978993a0c610d465bd4f7bba1055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>os</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>catalog_ui_policy_7a42978993a0c610d465bd4f7bba1055</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:52:21</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>catalog_ui_policy_7a42978993a0c610d465bd4f7bba1055</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:1811e0a093648210d465bd4f7bba10be=PRO0001007^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Hardware Request"&gt;db7c502893248210d465bd4f7bba10d6&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;os&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;It service&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 18:52:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7a42978993a0c610d465bd4f7bba1055&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;os&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project 2: Office Hardware Catalog"&gt;488ffbc093640210d465bd4f7bba10e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_7a42978993a0c610d465bd4f7bba1055&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;It service&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 18:52:21&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-902585401</payload_hash>
+        <record_name>os</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 18:52:21</sys_created_on>
+        <sys_id>97625f8993a0c610d465bd4f7bba109d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd22959ab0000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:27</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>db625f89c4a0c610832939728f2ff59c</update_guid>
+        <update_guid_history>db625f89c4a0c610832939728f2ff59c:-902585401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="os">a6b21bc993a0c610d465bd4f7bba108a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 18:53:40</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>717272eedda04ac8a22f970eac202351</sys_id>
+        <sys_metadata>7a42978993a0c610d465bd4f7bba1055</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>os</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_7a42978993a0c610d465bd4f7bba1055</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_7a42978993a0c610d465bd4f7bba1055">97625f8993a0c610d465bd4f7bba109d</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:53:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

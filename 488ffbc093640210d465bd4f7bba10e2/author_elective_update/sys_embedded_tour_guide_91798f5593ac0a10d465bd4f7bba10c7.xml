@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="DELETE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>ho?id=hardware_ordering&amp;gtd_portal_title=Hardware Ordering&amp;gtd_page_title=Hardware ordering</context>
+        <description/>
+        <has_concl>false</has_concl>
+        <has_intro>true</has_intro>
+        <name>Hardware ordering tour</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="hardware_ordering">6393a4e493648210d465bd4f7bba103f</sp_page>
+        <sp_portal display_value="Hardware Ordering">7a81e4e093648210d465bd4f7bba10d8</sp_portal>
+        <status>draft</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-23 12:51:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91798f5593ac0a10d465bd4f7bba10c7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hardware ordering tour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_91798f5593ac0a10d465bd4f7bba10c7</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-23 13:00:27</sys_updated_on>
+        <tour_id>TOUR0000007</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</application>
+        <file_path/>
+        <instance_id>8a07bd0edb6ab99c38f1172913961965</instance_id>
+        <instance_name>dev215531</instance_name>
+        <name>sys_embedded_tour_guide_91798f5593ac0a10d465bd4f7bba10c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide"><sys_embedded_tour_guide action="INSERT_OR_UPDATE"><active>true</active><additional_parameters/><autolaunch_order>0</autolaunch_order><context>ho?id=hardware_ordering&amp;gtd_portal_title=Hardware Ordering&amp;gtd_page_title=Hardware ordering</context><description/><has_concl>false</has_concl><has_intro>true</has_intro><name>Hardware ordering tour</name><options/><roles/><sp_page display_value="hardware_ordering">6393a4e493648210d465bd4f7bba103f</sp_page><sp_portal display_value="Hardware Ordering">7a81e4e093648210d465bd4f7bba10d8</sp_portal><status>draft</status><sys_class_name>sys_embedded_tour_guide</sys_class_name><sys_created_by>It service</sys_created_by><sys_created_on>2024-02-23 12:51:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>91798f5593ac0a10d465bd4f7bba10c7</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Hardware ordering tour</sys_name><sys_overrides/><sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package><sys_policy/><sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope><sys_update_name>sys_embedded_tour_guide_91798f5593ac0a10d465bd4f7bba10c7</sys_update_name><sys_updated_by>It service</sys_updated_by><sys_updated_on>2024-02-23 13:00:27</sys_updated_on><tour_id>TOUR0000007</tour_id><type>service_portal</type></sys_embedded_tour_guide></record_update>]]></payload>
+        <payload_hash>125895155</payload_hash>
+        <record_name>Hardware ordering tour</record_name>
+        <reverted_from/>
+        <source>f9c3c9ee93850210d465bd4f7bba10b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-23 13:00:27</sys_created_on>
+        <sys_id>4a7b8b5993ac0a10d465bd4f7bba10c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>18dd60d87640000001</sys_recorded_at>
+        <sys_updated_by>dakota_gray</sys_updated_by>
+        <sys_updated_on>2024-03-22 20:51:26</sys_updated_on>
+        <type>Guided Tour</type>
+        <update_guid>427b8b5983ac0a10e3497f787bb90fc3</update_guid>
+        <update_guid_history>427b8b5983ac0a10e3497f787bb90fc3:125895155,ab5a4f59c3ac0a10134c26da049a7412:-566136122,ebe9c31913ac0a107e971d2e549fe64b:1660314044,00e9479573ac0a10a624aecd5307fcd3:-608183319,5d79431926ac0a1053792e17a186de7a:1880647010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-23 13:00:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_guide">sys_embedded_tour_guide</sys_db_object>
+        <sys_id>5b5fcf2879d64e64b5af93fbb14f3d84</sys_id>
+        <sys_metadata>91798f5593ac0a10d465bd4f7bba10c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware ordering tour</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_scope_delete display_value="">b0073ae1a3cb44209455e71ddca13900</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_guide_91798f5593ac0a10d465bd4f7bba10c7</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_guide_91798f5593ac0a10d465bd4f7bba10c7">4a7b8b5993ac0a10d465bd4f7bba10c3</sys_update_version>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-23 13:00:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

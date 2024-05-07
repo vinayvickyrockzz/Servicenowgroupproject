@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Hardware Request">db7c502893248210d465bd4f7bba10d6</catalog_item>
+        <catalog_variable>IO:cd74646893648210d465bd4f7bba106c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-21 09:14:40</sys_created_on>
+        <sys_id>307404b493acc210d465bd4f7bba10cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shipping_details</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_307404b493acc210d465bd4f7bba10cc</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-21 09:14:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide shipping detail">8314887493acc210d465bd4f7bba10d8</ui_policy>
+        <variable>shipping_details</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

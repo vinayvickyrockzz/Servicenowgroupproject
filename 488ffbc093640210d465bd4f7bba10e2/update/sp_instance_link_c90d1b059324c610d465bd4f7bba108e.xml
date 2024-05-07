@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="Hardware orderings">9aab4ec193688610d465bd4f7bba1020</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Guides and troubleshoots for hardwares</short_description>
+        <size>md</size>
+        <sp_column display_value="2">a5cc5bc19324c610d465bd4f7bba109f</sp_column>
+        <sp_page display_value="kb_category">0e461a2147132100ba13a5554ee4900e</sp_page>
+        <sp_widget display_value="Hardware Icon Link">4279a6c5936c8610d465bd4f7bba109a</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 19:38:38</sys_created_on>
+        <sys_id>c90d1b059324c610d465bd4f7bba108e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>sp_instance_link_c90d1b059324c610d465bd4f7bba108e</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:39:28</sys_updated_on>
+        <title>Knowledge Base</title>
+        <type>kb_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Top Icon Two",
+		"displayValue": "Color Top Icon Two"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=c90d1b059324c610d465bd4f7bba108e"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Employee Requestion">208950e093248210d465bd4f7bba1036</sc_catalog>
+        <sp_portal display_value="Hardware Ordering">7a81e4e093648210d465bd4f7bba10d8</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>It service</sys_created_by>
+        <sys_created_on>2024-02-22 13:09:09</sys_created_on>
+        <sys_id>efd3824593288610d465bd4f7bba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Requestion.Hardware Ordering</sys_name>
+        <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_efd3824593288610d465bd4f7bba10d2</sys_update_name>
+        <sys_updated_by>It service</sys_updated_by>
+        <sys_updated_on>2024-02-22 13:09:09</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

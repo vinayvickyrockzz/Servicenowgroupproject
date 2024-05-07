@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="brand" table="x_1309020_project_product" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>brand</element>
+            <name>x_1309020_project_product</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>brand</sys_name>
+            <sys_package display_value="Project 2: Office Hardware Catalog" source="x_1309020_project">488ffbc093640210d465bd4f7bba10e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project 2: Office Hardware Catalog">488ffbc093640210d465bd4f7bba10e2</sys_scope>
+            <sys_update_name>sys_choice_x_1309020_project_product_brand</sys_update_name>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>desktop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Samsung</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>samsung</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>desktop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sony</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>sony</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>desktop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>apple</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>laptop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>lenovo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>hp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canon</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>canon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>printer</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epson</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>epson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>router</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cicso</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>cicso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>router</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TP-Link</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>tp_link</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>router</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D-Link</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>d_link</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>laptop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>dell</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>laptop</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple</label>
+            <language>en</language>
+            <name>x_1309020_project_product</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>dakota_gray</sys_created_by>
+            <sys_created_on>2024-02-20 15:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dakota_gray</sys_updated_by>
+            <sys_updated_on>2024-02-20 15:34:40</sys_updated_on>
+            <value>apple</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
